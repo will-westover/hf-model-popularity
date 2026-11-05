@@ -1,0 +1,201 @@
+---
+title: "EDA: What makes a Hugging Face model popular?"
+author: "William Westover"
+date: 2026-11-04
+format:
+  html:
+    toc: true
+    embed-resources: true
+    code-fold: false
+execute:
+  echo: true
+  warning: false
+jupyter: python3
+---
+
+Exploring `data/processed/models_clean.csv`, the 3,000 most downloaded models on the Hugging Face Hub (collected November 4, 2026) joined with their linked arXiv papers.
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+BLUE, ORANGE, GRAY = "#2a78d6", "#eb6834", "#52514e"
+plt.rcParams.update({"axes.spines.top": False, "axes.spines.right": False, "axes.grid": True,
+                     "grid.alpha": 0.3, "axes.titlelocation": "left"})
+
+models = pd.read_csv("data/processed/models_clean.csv", parse_dates=["created_at", "last_modified", "first_paper_date"])
+print(models.shape)
+models.head()
+```
+
+# Overview
+
+```{python}
+print("Missing values per column:")
+print(models.isna().sum()[models.isna().sum() > 0])
+```
+
+```{python}
+models[["downloads_30d", "downloads_all_time", "likes", "params_billions", "age_days", "num_arxiv_papers"]].describe().round(1)
+```
+
+Downloads and likes are extremely skewed. The median model has about 2.2 million all-time downloads and 58 likes, but the top model (`sentence-transformers/all-MiniLM-L6-v2`) has 4.2 billion downloads. Everything below uses medians and log scales.
+
+# Who uploads the top models?
+
+```{python}
+print("Distinct authors:", models["author"].nunique())
+models["author"].value_counts().head(10)
+```
+
+OpenMed alone has 315 models in the top 3,000. 237 of them were created on the same day (2025-07-16), which is a bulk upload of medical token-classification models.
+
+```{python}
+print(models[models["author"] == "OpenMed"]["task"].value_counts().head(3))
+print(models["created_at"].dt.date.value_counts().head(3))
+```
+
+# Task
+
+```{python}
+by_task = models.groupby("task").agg(n=("model_id", "size"), median_downloads=("downloads_all_time", "median"), median_likes=("likes", "median"))
+by_task = by_task[by_task["n"] >= 30].sort_values("n", ascending=False)
+by_task.round(0)
+```
+
+```{python}
+#| fig-cap: "Median all-time downloads and likes by task, for tasks with at least 30 models."
+#| fig-alt: "Two horizontal bar charts. Left: fill-mask has the highest median downloads at about 19 million, then sentence-similarity. Right: text-to-image and text-generation have the highest median likes, token-classification the lowest."
+fig, axes = plt.subplots(1, 2, figsize=(11, 5))
+by_task.sort_values("median_downloads").plot.barh(y="median_downloads", ax=axes[0], color=BLUE, legend=False, width=0.6)
+axes[0].set_title("Median all-time downloads")
+axes[0].set_ylabel("")
+by_task.sort_values("median_likes").plot.barh(y="median_likes", ax=axes[1], color=ORANGE, legend=False, width=0.6)
+axes[1].set_title("Median likes")
+axes[1].set_ylabel("")
+plt.tight_layout()
+plt.show()
+```
+
+Downloads and likes point in different directions. `fill-mask` models (BERT and friends) have the highest median downloads (18.6 million) but few likes. `text-to-image` and `text-generation` get the most likes.
+
+# Library and license
+
+```{python}
+by_lib = models.groupby("library").agg(n=("model_id", "size"), median_downloads=("downloads_all_time", "median"), median_likes=("likes", "median"))
+by_lib[by_lib["n"] >= 20].sort_values("n", ascending=False).round(0)
+```
+
+```{python}
+lic = models["license"].value_counts()
+print("Share apache-2.0:", round(lic["apache-2.0"] / len(models), 3))
+print("Share mit:", round(lic["mit"] / len(models), 3))
+lic.head(10)
+```
+
+```{python}
+by_lic = models.groupby("license").agg(n=("model_id", "size"), median_downloads=("downloads_all_time", "median"), median_likes=("likes", "median"))
+by_lic[by_lic["n"] >= 20].sort_values("median_likes", ascending=False).round(0)
+```
+
+Permissive licenses dominate: 55% apache-2.0 and 14% MIT. The model-specific licenses (gemma, llama) have far more likes per model, but those are big-lab releases, so it is the lab and not the license.
+
+# Size
+
+```{python}
+print("Models with a parameter count:", models["num_parameters"].notna().sum())
+models.groupby("size_class", observed=True).agg(n=("model_id", "size"), median_downloads=("downloads_all_time", "median"), median_likes=("likes", "median")).round(0)
+```
+
+```{python}
+#| fig-cap: "Parameters vs all-time downloads, both on a log scale. Point size is likes."
+#| fig-alt: "Scatter plot of 1,832 models. Downloads do not rise with parameter count. The biggest, most liked points are over 10B parameters but sit in the middle of the download range."
+has_size = models[models["num_parameters"] > 0]
+fig, ax = plt.subplots(figsize=(8, 5.5))
+ax.scatter(has_size["num_parameters"], has_size["downloads_all_time"], s=5 + has_size["likes"] / 40,
+           color=BLUE, alpha=0.35, edgecolors="white", linewidths=0.5)
+ax.set_xscale("log")
+ax.set_yscale("log")
+ax.set_xlabel("Parameters")
+ax.set_ylabel("All-time downloads")
+ax.set_title("Bigger models are liked more, not downloaded more")
+for _, row in has_size.nlargest(4, "likes").iterrows():
+    ax.annotate(row["model_id"].split("/")[-1], (row["num_parameters"], row["downloads_all_time"]), fontsize=8, color=GRAY, xytext=(5, 5), textcoords="offset points")
+plt.show()
+```
+
+```{python}
+#| fig-cap: "Likes by size class (log scale)."
+#| fig-alt: "Box plot of likes for four size classes. Median likes climb from about 12 for models under 100M parameters to about 160 for models over 10B."
+order = ["under 100M", "100M to 1B", "1B to 10B", "over 10B"]
+fig, ax = plt.subplots(figsize=(8, 4.5))
+ax.boxplot([models.loc[models["size_class"] == s, "likes"] + 1 for s in order], tick_labels=order,
+           widths=0.5, patch_artist=True, boxprops=dict(facecolor=BLUE, alpha=0.5), medianprops=dict(color="black"))
+ax.set_yscale("log")
+ax.set_ylabel("Likes + 1")
+ax.set_title("Likes climb with parameter count")
+plt.show()
+```
+
+```{python}
+print("Correlation of log parameters with log downloads:", round(has_size["num_parameters"].apply("log10").corr(has_size["downloads_all_time"].apply("log10")), 3))
+print("Correlation of log parameters with log likes:", round(has_size["num_parameters"].apply("log10").corr((has_size["likes"] + 1).apply("log10")), 3))
+```
+
+Median downloads barely move across size classes (2.3M to 3.8M), and the smallest models are actually downloaded the most. Median likes go from 12 (under 100M) to 162 (over 10B).
+
+# Likes vs downloads
+
+```{python}
+print("Correlation of log likes and log downloads:", round((models["likes"] + 1).apply("log10").corr(models["downloads_all_time"].apply("log10")), 3))
+print("\nMost liked:")
+print(models.nlargest(5, "likes")[["model_id", "likes", "downloads_all_time"]].to_string(index=False))
+print("\nMost liked per download (loved but not used):")
+print(models.nlargest(5, "likes_per_million_downloads")[["model_id", "likes", "downloads_all_time"]].to_string(index=False))
+print("\nFewest likes per download (used but not loved):")
+print(models[models["likes"] > 0].nsmallest(5, "likes_per_million_downloads")[["model_id", "likes", "downloads_all_time"]].to_string(index=False))
+```
+
+# Time
+
+```{python}
+print("Models with a real creation date:", models["created_at_known"].sum())
+models["created_year"].value_counts().sort_index()
+```
+
+```{python}
+#| fig-cap: "Models created per year among the top 3,000, for the five most common tasks. Models with the placeholder 2022-03-02 date are left out, and 2026 only runs through November 4."
+#| fig-alt: "Grouped bar chart from 2022 to 2026. text-generation and image-text-to-text grow every year and dominate 2025 and 2026. token-classification spikes in 2025 from the OpenMed upload."
+top_tasks = models["task"].value_counts().head(5).index
+by_year = models[models["task"].isin(top_tasks)].groupby(["created_year", "task"]).size().unstack("task")[top_tasks]
+colors = [BLUE, ORANGE, "#1baf7a", "#eda100", "#e87ba4"]
+ax = by_year.plot.bar(figsize=(9, 5), color=colors, width=0.8, edgecolor="white")
+ax.set_xlabel("Year created")
+ax.set_ylabel("Models")
+ax.set_title("Newer top models are mostly text and image-text generation")
+ax.set_xticklabels([int(y) for y in by_year.index], rotation=0)
+ax.legend(title="", frameon=False)
+plt.show()
+```
+
+```{python}
+print(models.groupby("created_year")[["downloads_all_time", "downloads_30d", "likes"]].median().round(0))
+```
+
+Older models have more all-time downloads (they have had longer), but the 30-day downloads are flat or higher for new models.
+
+# Papers
+
+```{python}
+print("Models with at least one arXiv paper:", (models["num_arxiv_papers"] > 0).sum())
+print(models["paper_category"].value_counts().head(6))
+print("\nDays from first paper to model creation:")
+print(models["days_paper_to_model"].describe().round(0))
+print("\nShare of models created before their paper:", round((models["days_paper_to_model"] < 0).mean(), 3))
+```
+
+```{python}
+models.groupby(models["num_arxiv_papers"] > 0)[["downloads_all_time", "likes"]].median().rename(index={True: "has paper", False: "no paper"}).round(0)
+```
+
+Half of the models link a paper, and those models get more likes. cs.CL (language) papers outnumber cs.CV (vision) 903 to 329. The median gap from paper to model is 76 days, and a quarter of models were on the Hub before the paper was posted.
