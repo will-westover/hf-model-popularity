@@ -6,3 +6,5 @@ eda_files/
 **/*.quarto_ipynb
 .DS_Store
 _PLAN.md
+
+/.quarto/
