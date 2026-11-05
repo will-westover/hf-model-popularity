@@ -3,7 +3,7 @@
 Run from the repository root:
     uv run python scripts/collect_models.py
 
-Uses the public list endpoint (no API key needed). The expand[] parameter
+Uses the public list endpoint. The expand[] parameter
 asks for extra fields so one request per page is enough. Saves the raw API
 responses to data/raw/models_raw.json and one flattened row per model to
 data/raw/models_raw.csv. Cleaning happens later in scripts/clean_data.py.

@@ -52,8 +52,6 @@ hf-model-popularity/
 
 ## Reproduce
 
-No API key is needed for either API.
-
 ```bash
 uv sync
 uv run python scripts/collect_models.py   # 3 requests, a few seconds
@@ -72,5 +70,5 @@ Downloads and likes change every day, so a fresh run won't match the CSV here ex
   [robots.txt](https://huggingface.co/robots.txt) allows everything.
 - [arXiv API](https://info.arxiv.org/help/api/index.html), which asks for one request
   every 3 seconds. The script waits 3 seconds between batches.
-- Model metadata is public, and the dataset only has metadata (no model weights, no
-  user data beyond public org names), so I felt fine including it here.
+- The dataset is only public model metadata (no model weights, no user data beyond
+  public org names).
