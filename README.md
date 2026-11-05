@@ -1,10 +1,10 @@
 # What makes a Hugging Face model popular?
 
-STAT 386 data curation project. I pulled the 3,000 most downloaded models on the
+My STAT 386 data curation project. I pulled the 3,000 most downloaded models on the
 [Hugging Face Hub](https://huggingface.co/models) through the public Hub API, then
 looked up the arXiv papers each model links to through the arXiv API. The question
-is whether a model's task, library, license, or size has anything to do with how
-many downloads and likes it gets.
+I'm after is whether a model's task, library, license, or size has anything to do
+with how many downloads and likes it gets.
 
 Blog post: <https://will-westover.github.io/blog/posts/hf-model-popularity/>
 
@@ -62,7 +62,7 @@ uv run python scripts/clean_data.py
 uv run quarto render eda.qmd
 ```
 
-Downloads and likes change daily, so a fresh run will not match the CSV here exactly.
+Downloads and likes change every day, so a fresh run won't match the CSV here exactly.
 
 ## Sources and terms
 
@@ -72,5 +72,5 @@ Downloads and likes change daily, so a fresh run will not match the CSV here exa
   [robots.txt](https://huggingface.co/robots.txt) allows everything.
 - [arXiv API](https://info.arxiv.org/help/api/index.html), which asks for one request
   every 3 seconds. The script waits 3 seconds between batches.
-- Model metadata is public, and the dataset holds only metadata (no model weights,
-  no user data beyond public org names), so it is included here.
+- Model metadata is public, and the dataset only has metadata (no model weights, no
+  user data beyond public org names), so I felt fine including it here.

@@ -2272,8 +2272,8 @@ var requirejs,require,define;(function(global,setTimeout){var req,s,head,baseEle
 </header>
 
 
-<p>Exploring <code>data/processed/models_clean.csv</code>, the 3,000 most downloaded models on the Hugging Face Hub (collected November 4, 2026) joined with their linked arXiv papers.</p>
-<div id="898344fe" class="cell" data-execution_count="1">
+<p>This is my exploration of <code>data/processed/models_clean.csv</code>, the 3,000 most downloaded models on the Hugging Face Hub (collected November 4, 2026) joined with the arXiv papers they link to.</p>
+<div id="cfb5a277" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -2448,7 +2448,7 @@ var requirejs,require,define;(function(global,setTimeout){var req,s,head,baseEle
 </div>
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<div id="0328a8b2" class="cell" data-execution_count="2">
+<div id="c362fec7" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Missing values per column:&quot;</span>)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(models.isna().<span class="bu">sum</span>()[models.isna().<span class="bu">sum</span>() <span class="op">&gt;</span> <span class="dv">0</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -2471,7 +2471,7 @@ days_paper_to_model    1666
 dtype: int64</code></pre>
 </div>
 </div>
-<div id="b2a57062" class="cell" data-execution_count="3">
+<div id="f54a4c23" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>models[[<span class="st">&quot;downloads_30d&quot;</span>, <span class="st">&quot;downloads_all_time&quot;</span>, <span class="st">&quot;likes&quot;</span>, <span class="st">&quot;params_billions&quot;</span>, <span class="st">&quot;age_days&quot;</span>, <span class="st">&quot;num_arxiv_papers&quot;</span>]].describe().<span class="bu">round</span>(<span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="3">
 <div>
@@ -2568,11 +2568,11 @@ dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<p>Downloads and likes are extremely skewed. The median model has about 2.2 million all-time downloads and 58 likes, but the top model (<code>sentence-transformers/all-MiniLM-L6-v2</code>) has 4.2 billion downloads. Everything below uses medians and log scales.</p>
+<p>Downloads and likes are really skewed. The median model has about 2.2 million all-time downloads and 58 likes, but the top model (<code>sentence-transformers/all-MiniLM-L6-v2</code>) has 4.2 billion downloads on its own. So everything below uses medians and log scales.</p>
 </section>
 <section id="who-uploads-the-top-models" class="level1">
 <h1>Who uploads the top models?</h1>
-<div id="810a81f9" class="cell" data-execution_count="4">
+<div id="dc1a412f" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Distinct authors:&quot;</span>, models[<span class="st">&quot;author&quot;</span>].nunique())</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>models[<span class="st">&quot;author&quot;</span>].value_counts().head(<span class="dv">10</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -2593,8 +2593,8 @@ Comfy-Org              49
 Name: count, dtype: int64</code></pre>
 </div>
 </div>
-<p>OpenMed alone has 315 models in the top 3,000. 237 of them were created on the same day (2025-07-16), which is a bulk upload of medical token-classification models.</p>
-<div id="13feceb5" class="cell" data-execution_count="5">
+<p>OpenMed alone has 315 models in the top 3,000, and 237 of them were created on the same day (2025-07-16). That was a bulk upload of medical token-classification models.</p>
+<div id="1927e8cf" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(models[models[<span class="st">&quot;author&quot;</span>] <span class="op">==</span> <span class="st">&quot;OpenMed&quot;</span>][<span class="st">&quot;task&quot;</span>].value_counts().head(<span class="dv">3</span>))</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(models[<span class="st">&quot;created_at&quot;</span>].dt.date.value_counts().head(<span class="dv">3</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -2611,7 +2611,7 @@ Name: count, dtype: int64</code></pre>
 </section>
 <section id="task" class="level1">
 <h1>Task</h1>
-<div id="ca4fefa6" class="cell" data-execution_count="6">
+<div id="bad87da6" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>by_task <span class="op">=</span> models.groupby(<span class="st">&quot;task&quot;</span>).agg(n<span class="op">=</span>(<span class="st">&quot;model_id&quot;</span>, <span class="st">&quot;size&quot;</span>), median_downloads<span class="op">=</span>(<span class="st">&quot;downloads_all_time&quot;</span>, <span class="st">&quot;median&quot;</span>), median_likes<span class="op">=</span>(<span class="st">&quot;likes&quot;</span>, <span class="st">&quot;median&quot;</span>))</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>by_task[<span class="st">&quot;median_downloads&quot;</span>] <span class="op">=</span> by_task[<span class="st">&quot;median_downloads&quot;</span>] <span class="op">/</span> <span class="fl">1e6</span></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>by_task <span class="op">=</span> by_task[by_task[<span class="st">&quot;n&quot;</span>] <span class="op">&gt;=</span> <span class="dv">30</span>].sort_values(<span class="st">&quot;n&quot;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
@@ -2732,7 +2732,7 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<div id="478d8c48" class="cell" data-execution_count="7">
+<div id="12a999d9" class="cell" data-execution_count="7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">11</span>, <span class="dv">5</span>))</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>by_task.sort_values(<span class="st">&quot;median_downloads&quot;</span>).plot.barh(y<span class="op">=</span><span class="st">&quot;median_downloads&quot;</span>, ax<span class="op">=</span>axes[<span class="dv">0</span>], color<span class="op">=</span>BLUE, legend<span class="op">=</span><span class="va">False</span>, width<span class="op">=</span><span class="fl">0.6</span>)</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_title(<span class="st">&quot;Median all-time downloads (millions)&quot;</span>)</span>
@@ -2751,11 +2751,11 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<p>Downloads and likes point in different directions. <code>fill-mask</code> models (BERT and friends) have the highest median downloads (18.6 million) but few likes. <code>image-to-image</code> and <code>text-to-image</code> get the most likes.</p>
+<p>Downloads and likes don’t line up. <code>fill-mask</code> models (BERT and models like it) have the highest median downloads (18.6 million) but hardly any likes. <code>image-to-image</code> (405) and <code>text-to-image</code> (210) get the most likes.</p>
 </section>
 <section id="library-and-license" class="level1">
 <h1>Library and license</h1>
-<div id="5fa4d1a1" class="cell" data-execution_count="8">
+<div id="18e67b89" class="cell" data-execution_count="8">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>by_lib <span class="op">=</span> models.groupby(<span class="st">&quot;library&quot;</span>).agg(n<span class="op">=</span>(<span class="st">&quot;model_id&quot;</span>, <span class="st">&quot;size&quot;</span>), median_downloads<span class="op">=</span>(<span class="st">&quot;downloads_all_time&quot;</span>, <span class="st">&quot;median&quot;</span>), median_likes<span class="op">=</span>(<span class="st">&quot;likes&quot;</span>, <span class="st">&quot;median&quot;</span>))</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>by_lib[by_lib[<span class="st">&quot;n&quot;</span>] <span class="op">&gt;=</span> <span class="dv">20</span>].sort_values(<span class="st">&quot;n&quot;</span>, ascending<span class="op">=</span><span class="va">False</span>).<span class="bu">round</span>(<span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="8">
@@ -2844,7 +2844,7 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<div id="57044cbc" class="cell" data-execution_count="9">
+<div id="95700514" class="cell" data-execution_count="9">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>lic <span class="op">=</span> models[<span class="st">&quot;license&quot;</span>].value_counts()</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Share apache-2.0:&quot;</span>, <span class="bu">round</span>(lic[<span class="st">&quot;apache-2.0&quot;</span>] <span class="op">/</span> <span class="bu">len</span>(models), <span class="dv">3</span>))</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Share mit:&quot;</span>, <span class="bu">round</span>(lic[<span class="st">&quot;mit&quot;</span>] <span class="op">/</span> <span class="bu">len</span>(models), <span class="dv">3</span>))</span>
@@ -2868,7 +2868,7 @@ creativeml-openrail-m      14
 Name: count, dtype: int64</code></pre>
 </div>
 </div>
-<div id="8bc3b091" class="cell" data-execution_count="10">
+<div id="81ea5a28" class="cell" data-execution_count="10">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>by_lic <span class="op">=</span> models.groupby(<span class="st">&quot;license&quot;</span>).agg(n<span class="op">=</span>(<span class="st">&quot;model_id&quot;</span>, <span class="st">&quot;size&quot;</span>), median_downloads<span class="op">=</span>(<span class="st">&quot;downloads_all_time&quot;</span>, <span class="st">&quot;median&quot;</span>), median_likes<span class="op">=</span>(<span class="st">&quot;likes&quot;</span>, <span class="st">&quot;median&quot;</span>))</span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>by_lic[by_lic[<span class="st">&quot;n&quot;</span>] <span class="op">&gt;=</span> <span class="dv">20</span>].sort_values(<span class="st">&quot;median_likes&quot;</span>, ascending<span class="op">=</span><span class="va">False</span>).<span class="bu">round</span>(<span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="10">
@@ -2939,11 +2939,11 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<p>Permissive licenses dominate: 55% apache-2.0 and 14% MIT. The model-specific licenses (gemma, llama) have far more likes per model, but those are big-lab releases, so it is the lab and not the license.</p>
+<p>Most models use a permissive license (55% apache-2.0 and 14% MIT). The model-specific licenses like gemma and llama have a lot more likes per model, but those are all big-lab releases, so I think it’s the lab and not the license.</p>
 </section>
 <section id="size" class="level1">
 <h1>Size</h1>
-<div id="2a8e4693" class="cell" data-execution_count="11">
+<div id="997415e5" class="cell" data-execution_count="11">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Models with a parameter count:&quot;</span>, models[<span class="st">&quot;num_parameters&quot;</span>].notna().<span class="bu">sum</span>())</span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>models.groupby(<span class="st">&quot;size_class&quot;</span>, observed<span class="op">=</span><span class="va">True</span>).agg(n<span class="op">=</span>(<span class="st">&quot;model_id&quot;</span>, <span class="st">&quot;size&quot;</span>), median_downloads<span class="op">=</span>(<span class="st">&quot;downloads_all_time&quot;</span>, <span class="st">&quot;median&quot;</span>), median_likes<span class="op">=</span>(<span class="st">&quot;likes&quot;</span>, <span class="st">&quot;median&quot;</span>)).<span class="bu">round</span>(<span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -2999,7 +2999,7 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<div id="ee6476f4" class="cell" data-execution_count="12">
+<div id="f4e072f1" class="cell" data-execution_count="12">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>has_size <span class="op">=</span> models[models[<span class="st">&quot;num_parameters&quot;</span>] <span class="op">&gt;</span> <span class="dv">0</span>]</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="fl">5.5</span>))</span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>ax.scatter(has_size[<span class="st">&quot;num_parameters&quot;</span>], has_size[<span class="st">&quot;downloads_all_time&quot;</span>], s<span class="op">=</span><span class="dv">5</span> <span class="op">+</span> has_size[<span class="st">&quot;likes&quot;</span>] <span class="op">/</span> <span class="dv">40</span>,</span>
@@ -3021,7 +3021,7 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<div id="dd78f2d1" class="cell" data-execution_count="13">
+<div id="2dc833c9" class="cell" data-execution_count="13">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>order <span class="op">=</span> [<span class="st">&quot;under 100M&quot;</span>, <span class="st">&quot;100M to 1B&quot;</span>, <span class="st">&quot;1B to 10B&quot;</span>, <span class="st">&quot;over 10B&quot;</span>]</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="fl">4.5</span>))</span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>ax.boxplot([models.loc[models[<span class="st">&quot;size_class&quot;</span>] <span class="op">==</span> s, <span class="st">&quot;likes&quot;</span>] <span class="op">+</span> <span class="dv">1</span> <span class="cf">for</span> s <span class="kw">in</span> order], tick_labels<span class="op">=</span>order,</span>
@@ -3039,7 +3039,7 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<div id="5bec55ec" class="cell" data-execution_count="14">
+<div id="0b6659b1" class="cell" data-execution_count="14">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Correlation of log parameters with log downloads:&quot;</span>, <span class="bu">round</span>(has_size[<span class="st">&quot;num_parameters&quot;</span>].<span class="bu">apply</span>(<span class="st">&quot;log10&quot;</span>).corr(has_size[<span class="st">&quot;downloads_all_time&quot;</span>].<span class="bu">apply</span>(<span class="st">&quot;log10&quot;</span>)), <span class="dv">3</span>))</span>
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Correlation of log parameters with log likes:&quot;</span>, <span class="bu">round</span>(has_size[<span class="st">&quot;num_parameters&quot;</span>].<span class="bu">apply</span>(<span class="st">&quot;log10&quot;</span>).corr((has_size[<span class="st">&quot;likes&quot;</span>] <span class="op">+</span> <span class="dv">1</span>).<span class="bu">apply</span>(<span class="st">&quot;log10&quot;</span>)), <span class="dv">3</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -3047,11 +3047,11 @@ Name: count, dtype: int64</code></pre>
 Correlation of log parameters with log likes: 0.426</code></pre>
 </div>
 </div>
-<p>Median downloads barely move across size classes (2.3M to 3.8M), and the smallest models are actually downloaded the most. Median likes go from 12 (under 100M) to 162 (over 10B).</p>
+<p>Median downloads barely move across size classes (2.3M to 3.8M), and the smallest models actually get downloaded the most. Median likes go from 12 (under 100M) to 162 (over 10B), so people like the big models but run the small ones.</p>
 </section>
 <section id="likes-vs-downloads" class="level1">
 <h1>Likes vs downloads</h1>
-<div id="5e4b014f" class="cell" data-execution_count="15">
+<div id="a42920a2" class="cell" data-execution_count="15">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Correlation of log likes and log downloads:&quot;</span>, <span class="bu">round</span>((models[<span class="st">&quot;likes&quot;</span>] <span class="op">+</span> <span class="dv">1</span>).<span class="bu">apply</span>(<span class="st">&quot;log10&quot;</span>).corr(models[<span class="st">&quot;downloads_all_time&quot;</span>].<span class="bu">apply</span>(<span class="st">&quot;log10&quot;</span>)), <span class="dv">3</span>))</span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Most liked:&quot;</span>)</span>
 <span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(models.nlargest(<span class="dv">5</span>, <span class="st">&quot;likes&quot;</span>)[[<span class="st">&quot;model_id&quot;</span>, <span class="st">&quot;likes&quot;</span>, <span class="st">&quot;downloads_all_time&quot;</span>]].to_string(index<span class="op">=</span><span class="va">False</span>))</span>
@@ -3090,7 +3090,7 @@ trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5      1            1
 </section>
 <section id="time" class="level1">
 <h1>Time</h1>
-<div id="db0951f4" class="cell" data-execution_count="16">
+<div id="bb323efc" class="cell" data-execution_count="16">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Models with a real creation date:&quot;</span>, models[<span class="st">&quot;created_at_known&quot;</span>].<span class="bu">sum</span>())</span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>models[<span class="st">&quot;created_year&quot;</span>].value_counts().sort_index()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
@@ -3106,7 +3106,7 @@ trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5      1            1
 Name: count, dtype: int64</code></pre>
 </div>
 </div>
-<div id="df214c6b" class="cell" data-execution_count="17">
+<div id="33c2522a" class="cell" data-execution_count="17">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>top_tasks <span class="op">=</span> models[<span class="st">&quot;task&quot;</span>].value_counts().head(<span class="dv">5</span>).index</span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>by_year <span class="op">=</span> models[models[<span class="st">&quot;task&quot;</span>].isin(top_tasks)].groupby([<span class="st">&quot;created_year&quot;</span>, <span class="st">&quot;task&quot;</span>]).size().unstack(<span class="st">&quot;task&quot;</span>)[top_tasks]</span>
 <span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [BLUE, ORANGE, <span class="st">&quot;#1baf7a&quot;</span>, <span class="st">&quot;#eda100&quot;</span>, <span class="st">&quot;#e87ba4&quot;</span>]</span>
@@ -3126,7 +3126,7 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 </div>
-<div id="138d878d" class="cell" data-execution_count="18">
+<div id="b17b8e43" class="cell" data-execution_count="18">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(models.groupby(<span class="st">&quot;created_year&quot;</span>)[[<span class="st">&quot;downloads_all_time&quot;</span>, <span class="st">&quot;downloads_30d&quot;</span>, <span class="st">&quot;likes&quot;</span>]].median().<span class="bu">round</span>(<span class="dv">0</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>              downloads_all_time  downloads_30d  likes
@@ -3138,11 +3138,11 @@ created_year
 2026.0                  941531.0       247813.0   88.0</code></pre>
 </div>
 </div>
-<p>Older models have more all-time downloads (they have had longer), but the 30-day downloads are flat or higher for new models.</p>
+<p>Older models have more all-time downloads since they’ve had longer to collect them, but the 30-day downloads are about flat across years. The low 2025 medians are mostly the OpenMed upload.</p>
 </section>
 <section id="papers" class="level1">
 <h1>Papers</h1>
-<div id="ba3d4d4c" class="cell" data-execution_count="19">
+<div id="f097f8fd" class="cell" data-execution_count="19">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Models with at least one arXiv paper:&quot;</span>, (models[<span class="st">&quot;num_arxiv_papers&quot;</span>] <span class="op">&gt;</span> <span class="dv">0</span>).<span class="bu">sum</span>())</span>
 <span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(models[<span class="st">&quot;paper_category&quot;</span>].value_counts().head(<span class="dv">6</span>))</span>
 <span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Days from first paper to model creation:&quot;</span>)</span>
@@ -3173,7 +3173,7 @@ Name: days_paper_to_model, dtype: float64
 Share of models created before their paper: 0.182</code></pre>
 </div>
 </div>
-<div id="b2708410" class="cell" data-execution_count="20">
+<div id="052c37e0" class="cell" data-execution_count="20">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>models.groupby(models[<span class="st">&quot;num_arxiv_papers&quot;</span>] <span class="op">&gt;</span> <span class="dv">0</span>)[[<span class="st">&quot;downloads_all_time&quot;</span>, <span class="st">&quot;likes&quot;</span>]].median().rename(index<span class="op">=</span>{<span class="va">True</span>: <span class="st">&quot;has paper&quot;</span>, <span class="va">False</span>: <span class="st">&quot;no paper&quot;</span>}).<span class="bu">round</span>(<span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="20">
 <div>
@@ -3209,7 +3209,7 @@ Share of models created before their paper: 0.182</code></pre>
 </div>
 </div>
 </div>
-<p>Half of the models link a paper, and those models get more likes. cs.CL (language) papers outnumber cs.CV (vision) 903 to 329. The median gap from paper to model is 76 days, and a quarter of models were on the Hub before the paper was posted.</p>
+<p>About half of the models link a paper, and those models get a few more likes (63 vs 54). cs.CL (language) papers outnumber cs.CV (vision) 903 to 329. The median gap from paper to model is 76 days, and about a quarter of the models were on the Hub before the paper was posted.</p>
 </section>
 
 </main>
