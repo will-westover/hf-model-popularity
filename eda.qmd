@@ -78,7 +78,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Downloads and likes don't line up. `fill-mask` models (BERT and models like it) have the highest median downloads (18.6 million) but hardly any likes. `image-to-image` (405) and `text-to-image` (210) get the most likes.
+Downloads and likes don't line up. `fill-mask` models (BERT and models like it) have the highest median downloads (18.6 million) but hardly any likes. `image-to-image` (405) and `text-to-image` (211) get the most likes.
 
 # Library and license
 
@@ -110,7 +110,7 @@ models.groupby("size_class", observed=True).agg(n=("model_id", "size"), median_d
 
 ```{python}
 #| fig-cap: "Parameters vs all-time downloads, both on a log scale. Point size is likes."
-#| fig-alt: "Scatter plot of 1,832 models. Downloads do not rise with parameter count. The biggest, most liked points are over 10B parameters but sit in the middle of the download range."
+#| fig-alt: "Scatter plot of 1,822 models. Downloads do not rise with parameter count. The biggest, most liked points are over 10B parameters but sit in the middle of the download range."
 has_size = models[models["num_parameters"] > 0]
 fig, ax = plt.subplots(figsize=(8, 5.5))
 ax.scatter(has_size["num_parameters"], has_size["downloads_all_time"], s=5 + has_size["likes"] / 40,
@@ -192,11 +192,11 @@ print("Models with at least one arXiv paper:", (models["num_arxiv_papers"] > 0).
 print(models["paper_category"].value_counts().head(6))
 print("\nDays from first paper to model creation:")
 print(models["days_paper_to_model"].describe().round(0))
-print("\nShare of models created before their paper:", round((models["days_paper_to_model"] < 0).mean(), 3))
+print("\nShare of models created before their paper:", round((models["days_paper_to_model"].dropna() < 0).mean(), 3))
 ```
 
 ```{python}
 models.groupby(models["num_arxiv_papers"] > 0)[["downloads_all_time", "likes"]].median().rename(index={True: "has paper", False: "no paper"}).round(0)
 ```
 
-About half of the models link a paper, and those models get a few more likes (63 vs 54). cs.CL (language) papers outnumber cs.CV (vision) 903 to 329. The median gap from paper to model is 76 days, and about a quarter of the models were on the Hub before the paper was posted.
+About half of the models link a paper, and those models get a few more likes (63 vs 54). cs.CL (language) papers outnumber cs.CV (vision) 903 to 329. The median gap from paper to model is 76 days, and about 40% of the models were on the Hub before the paper was posted.
