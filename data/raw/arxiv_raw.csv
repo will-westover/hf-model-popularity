@@ -1,0 +1,784 @@
+arxiv_id,title,published,primary_category
+1905.02244v5,Searching for MobileNetV3,2019-05-06T19:38:31Z,cs.CV
+2006.03677v4,Visual Transformers: Token-based Image Representation and Processing for Computer Vision,2020-06-05T20:49:49Z,cs.CV
+1808.09121v3,WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations,2018-08-28T05:16:35Z,cs.CL
+1910.09700v2,Quantifying the Carbon Emissions of Machine Learning,2019-10-21T23:57:32Z,cs.CY
+2304.01373v2,Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling,2023-04-03T20:58:15Z,cs.CL
+2308.12966v3,"Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",2023-08-24T17:59:17Z,cs.CV
+2211.01324v5,eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers,2022-11-02T17:43:04Z,cs.CV
+2203.02395v1,iSTFTNet: Fast and Lightweight Mel-Spectrogram Vocoder Incorporating Inverse Short-Time Fourier Transform,2022-03-04T16:05:48Z,cs.SD
+2204.05149v1,"The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",2022-04-11T14:30:27Z,cs.LG
+2111.14448v5,AVA-AVD: Audio-Visual Speaker Diarization in the Wild,2021-11-29T11:02:41Z,cs.CV
+1904.06472v2,A Repository of Conversational Datasets,2019-04-13T02:59:48Z,cs.CL
+1905.10044v1,BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions,2019-05-24T05:48:49Z,cs.CL
+1909.00161v1,"Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach",2019-08-31T07:42:11Z,cs.CL
+1910.01108v4,"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",2019-10-02T17:56:28Z,cs.CL
+2103.00020v1,Learning Transferable Visual Models From Natural Language Supervision,2021-02-26T19:04:58Z,cs.CV
+1704.05179v3,SearchQA: A New Q&A Dataset Augmented with Context from a Search Engine,2017-04-18T02:42:17Z,cs.CL
+2505.09388v1,Qwen3 Technical Report,2025-05-14T13:41:34Z,cs.CL
+2601.15621v1,Qwen3-TTS Technical Report,2026-01-22T03:51:43Z,cs.SD
+2402.03216v5,"M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",2024-02-05T17:26:49Z,cs.CL
+2205.13147v4,Matryoshka Representation Learning,2022-05-26T04:33:56Z,cs.LG
+2412.01506v3,Structured 3D Latents for Scalable and Versatile 3D Generation,2024-12-02T13:58:38Z,cs.CV
+1911.02116v2,Unsupervised Cross-lingual Representation Learning at Scale,2019-11-05T22:42:00Z,cs.CL
+2106.14807v1,"A Few Brief Notes on DeepImpact, COIL, and a Conceptual Framework for Information Retrieval Techniques",2021-06-28T15:30:42Z,cs.IR
+2101.00027v1,The Pile: An 800GB Dataset of Diverse Text for Language Modeling,2020-12-31T19:00:10Z,cs.CL
+2005.14165v4,Language Models are Few-Shot Learners,2020-05-28T17:29:03Z,cs.CL
+2102.07033v1,PAQ: 65 Million Probably-Asked Questions and What You Can Do With Them,2021-02-13T23:43:45Z,cs.CL
+2107.05720v1,SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking,2021-07-12T20:17:44Z,cs.IR
+2108.08787v2,Mr. TyDi: A Multi-lingual Benchmark for Dense Retrieval,2021-08-19T16:53:43Z,cs.CL
+2111.09543v4,DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing,2021-11-18T06:48:00Z,cs.CL
+1810.04805v2,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,2018-10-11T00:50:01Z,cs.CL
+1805.12471v3,Neural Network Acceptability Judgments,2018-05-31T13:52:06Z,cs.CL
+1806.02847v2,A Simple Method for Commonsense Reasoning,2018-06-07T18:13:08Z,cs.AI
+2307.01952v1,SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis,2023-07-04T23:04:57Z,cs.CV
+2409.12191v2,Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution,2024-09-18T17:59:32Z,cs.CV
+2309.07597v5,C-Pack: Packed Resources For General Chinese Embeddings,2023-09-14T10:57:50Z,cs.CL
+1606.05250v3,"SQuAD: 100,000+ Questions for Machine Comprehension of Text",2016-06-16T16:36:00Z,cs.CL
+1708.00055v1,SemEval-2017 Task 1: Semantic Textual Similarity - Multilingual and Cross-lingual Focused Evaluation,2017-07-31T20:12:06Z,cs.CL
+2506.05176v3,Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models,2025-06-05T15:49:48Z,cs.CL
+2012.01477v3,The Third DIHARD Diarization Challenge,2020-12-02T19:33:44Z,eess.AS
+2104.08663v4,BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models,2021-04-17T23:29:55Z,cs.IR
+2004.12832v2,ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT,2020-04-27T14:21:03Z,cs.IR
+2006.11477v3,wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations,2020-06-20T02:35:02Z,cs.CL
+1910.04867v2,A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark,2019-10-01T17:06:29Z,cs.CV
+1810.09305v1,WikiHow: A Large Scale Text Summarization Dataset,2018-10-18T05:29:41Z,cs.CL
+2006.03654v6,DeBERTa: Decoding-enhanced BERT with Disentangled Attention,2020-06-05T19:54:34Z,cs.CL
+2004.04906v3,Dense Passage Retrieval for Open-Domain Question Answering,2020-04-10T04:53:17Z,cs.CL
+2104.00298v3,EfficientNetV2: Smaller Models and Faster Training,2021-04-01T07:08:36Z,cs.CV
+1910.10683v4,Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,2019-10-23T17:37:36Z,cs.LG
+2112.10752v2,High-Resolution Image Synthesis with Latent Diffusion Models,2021-12-20T18:55:25Z,cs.CV
+1910.13461v1,"BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",2019-10-29T18:01:00Z,cs.CL
+1907.11692v1,RoBERTa: A Robustly Optimized BERT Pretraining Approach,2019-07-26T17:48:29Z,cs.CL
+2210.07316v3,MTEB: Massive Text Embedding Benchmark,2022-10-13T19:42:08Z,cs.CL
+2306.07691v2,StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models,2023-06-13T11:04:43Z,eess.AS
+2311.06242v1,Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks,2023-11-10T18:59:08Z,cs.CV
+2311.13534v4,LM-Cocktail: Resilient Tuning of Language Models via Model Merging,2023-11-22T17:14:54Z,cs.CL
+1704.05426v4,A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference,2017-04-18T17:10:13Z,cs.CL
+2312.15503v2,Llama2Vec: Unsupervised Adaptation of Large Language Models for Dense Retrieval,2023-12-24T15:10:35Z,cs.CL
+2110.07058v3,"Ego4D: Around the World in 3,000 Hours of Egocentric Video",2021-10-13T22:19:32Z,cs.CV
+2508.21085v1,Granite Embedding R2 Models,2025-08-26T19:06:29Z,cs.CL
+2403.07815v3,Chronos: Learning the Language of Time Series,2024-03-12T16:53:54Z,cs.LG
+2605.00649v3,Model Compression with Exact Budget Constraints via Riemannian Manifolds,2026-05-01T13:30:23Z,cs.LG
+2606.19348v1,DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence,2026-04-26T14:49:33Z,cs.CL
+1908.10084v1,Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks,2019-08-27T08:50:17Z,cs.CL
+2607.02770v2,Gemma 4 Technical Report,2026-07-02T21:08:53Z,cs.CL
+2402.05672v1,Multilingual E5 Text Embeddings: A Technical Report,2024-02-08T13:47:50Z,cs.CL
+2304.07193v2,DINOv2: Learning Robust Visual Features without Supervision,2023-04-14T15:12:19Z,cs.CV
+2112.09118v4,Unsupervised Dense Information Retrieval with Contrastive Learning,2021-12-16T18:57:37Z,cs.IR
+1406.2661v1,Generative Adversarial Networks,2014-06-10T18:58:17Z,stat.ML
+1908.10063v1,FinBERT: Financial Sentiment Analysis with Pre-trained Language Models,2019-08-27T07:40:48Z,cs.CL
+1908.04913v1,"FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age",2019-08-14T01:42:41Z,cs.CV
+2104.03603v4,"AISHELL-4: An Open Source Dataset for Speech Enhancement, Separation, Recognition and Speaker Diarization in Conference Scenario",2021-04-08T08:38:44Z,cs.SD
+2110.00476v1,ResNet strikes back: An improved training procedure in timm,2021-10-01T15:09:22Z,cs.CV
+2402.01613v2,Nomic Embed: Training a Reproducible Long Context Text Embedder,2024-02-02T18:23:18Z,cs.CL
+2412.04506v2,Arctic-Embed 2.0: Multilingual Retrieval Without Compromise,2024-12-03T22:59:36Z,cs.CL
+2306.00814v3,Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis,2023-06-01T15:40:32Z,cs.SD
+2401.03462v3,Long Context Compression with Activation Beacon,2024-01-07T11:57:40Z,cs.CL
+2502.13923v1,Qwen2.5-VL Technical Report,2025-02-19T18:00:14Z,cs.CV
+2407.10671v4,Qwen2 Technical Report,2024-07-15T12:35:42Z,cs.CL
+2512.14692v1,Native and Compact Structured Latents for 3D Generation,2025-12-16T18:58:28Z,cs.CV
+2503.08638v2,YuE: Scaling Open Foundation Models for Long-Form Music Generation,2025-03-11T17:26:50Z,eess.AS
+2604.00688v3,OmniVoice: Towards Omnilingual Zero-Shot Text-to-Speech with Diffusion Language Models,2026-04-01T09:45:51Z,cs.CL
+2604.18556v2,GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax Sampling,2026-04-20T17:45:47Z,cs.CL
+2211.06687v4,Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation,2022-11-12T15:25:20Z,cs.SD
+2610.07766v6,"OTel: Open Telco AI Datasets, Benchmarks, and Models",2026-10-06T05:03:29Z,cs.AI
+2201.07311v1,Datasheet for the Pile,2022-01-13T23:45:24Z,cs.CL
+2212.04356v1,Robust Speech Recognition via Large-Scale Weak Supervision,2022-12-06T18:46:04Z,eess.AS
+2205.01068v4,OPT: Open Pre-trained Transformer Language Models,2022-05-02T17:49:50Z,cs.CL
+1810.12885v1,ReCoRD: Bridging the Gap between Human and Machine Commonsense Reading Comprehension,2018-10-30T17:32:16Z,cs.CL
+2010.11929v2,An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale,2020-10-22T17:55:59Z,cs.CV
+2108.01073v2,SDEdit: Guided Image Synthesis and Editing with Stochastic Differential Equations,2021-08-02T17:59:47Z,cs.CV
+1705.00652v1,Efficient Natural Language Response Suggestion for Smart Reply,2017-05-01T18:24:15Z,cs.CL
+2412.13663v2,"Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",2024-12-18T09:39:44Z,cs.CL
+2310.07554v3,A Multi-Task Embedder For Retrieval Augmented LLMs,2023-10-11T14:59:53Z,cs.IR
+2508.02739v1,Kronos: A Foundation Model for the Language of Financial Markets,2025-08-02T13:15:59Z,q-fin.ST
+2606.23050v1,Unlimited OCR Works,2026-06-22T09:01:29Z,cs.CV
+2309.00071v3,YaRN: Efficient Context Window Extension of Large Language Models,2023-08-31T18:18:07Z,cs.CL
+2508.10925v1,gpt-oss-120b & gpt-oss-20b Model Card,2025-08-08T19:24:38Z,cs.CL
+2602.15763v2,GLM-5: from Vibe Coding to Agentic Engineering,2026-02-17T17:50:56Z,cs.LG
+2510.15821v1,Chronos-2: From Univariate to Universal Forecasting,2025-10-17T17:00:53Z,cs.LG
+2104.08727v2,GooAQ: Open Question Answering with Diverse Answer Types,2021-04-18T05:40:39Z,cs.CL
+2007.10310v3,CoVoST 2 and Massively Multilingual Speech-to-Text Translation,2020-07-20T17:53:35Z,cs.CL
+1901.08746v4,BioBERT: a pre-trained biomedical language representation model for biomedical text mining,2019-01-25T05:57:24Z,cs.CL
+2308.03281v1,Towards General Text Embeddings with Multi-stage Contrastive Learning,2023-08-07T03:52:59Z,cs.CL
+2306.05284v3,Simple and Controllable Music Generation,2023-06-08T15:31:05Z,cs.SD
+2304.06795v2,Efficient Sequence Transduction by Jointly Predicting Tokens and Durations,2023-04-13T19:38:27Z,eess.AS
+2108.12409v2,"Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",2021-08-27T17:35:06Z,cs.CL
+2101.00436v3,Baleen: Robust Multi-Hop Reasoning at Scale via Condensed Retrieval,2021-01-02T11:52:20Z,cs.CL
+2407.19669v2,mGTE: Generalized Long-Context Text Representation and Reranking Models for Multilingual Text Retrieval,2024-07-29T03:12:28Z,cs.CL
+1512.03385v1,Deep Residual Learning for Image Recognition,2015-12-10T19:51:55Z,cs.CV
+2406.00899v1,YODAS: Youtube-Oriented Dataset for Audio and Speech,2024-06-02T23:43:27Z,cs.CL
+2309.17425v3,Data Filtering Networks,2023-09-29T17:37:29Z,cs.AI
+2405.16406v4,SpinQuant: LLM quantization with learned rotations,2024-05-26T02:15:49Z,cs.LG
+2602.09003v1,Data Science and Technology Towards AGI Part I: Tiered Data Management,2026-02-09T18:47:51Z,cs.AI
+1911.11641v1,PIQA: Reasoning about Physical Commonsense in Natural Language,2019-11-26T15:31:46Z,cs.CL
+2502.02737v1,SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model,2025-02-04T21:43:16Z,cs.CL
+2509.11720v1,Advanced Layout Analysis Models for Docling,2025-09-15T09:20:11Z,cs.CV
+2605.08384v4,jina-embeddings-v5-omni: Geometry-preserving Embeddings via Locked Aligned Towers,2026-05-08T18:45:15Z,cs.CL
+2512.20856v1,NVIDIA Nemotron 3: Efficient and Open Intelligence,2025-12-24T00:24:05Z,cs.CL
+2512.20848v1,"Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",2025-12-23T23:54:32Z,cs.CL
+2004.03289v3,KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding,2020-04-07T11:49:15Z,cs.CL
+1912.07875v1,Libri-Light: A Benchmark for ASR with Limited or No Supervision,2019-12-17T08:47:30Z,cs.CL
+2101.00390v2,"VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation",2021-01-02T07:24:21Z,cs.CL
+2105.15203v3,SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers,2021-05-31T17:59:51Z,cs.CV
+2010.11784v2,Self-Alignment Pretraining for Biomedical Entity Representations,2020-10-22T14:59:57Z,cs.CL
+2202.03829v2,TimeLMs: Diachronic Language Models from Twitter,2022-02-08T12:47:38Z,cs.CL
+2205.03026v2,Hearing voices at the National Library -- a speech corpus and acoustic model for the Swedish language,2022-05-06T06:06:00Z,cs.CL
+2203.12574v1,Mitigating Gender Bias in Distilled Language Models via Counterfactual Role Reversal,2022-03-23T17:34:35Z,cs.CL
+2306.16962v1,Speech-based Age and Gender Prediction with Transformers,2023-06-29T14:13:15Z,cs.SD
+2307.04616v2,MiVOLO: Multi-input Transformer for Age and Gender Estimation,2023-07-10T14:58:10Z,cs.CV
+2303.15343v4,Sigmoid Loss for Language Image Pre-Training,2023-03-27T15:53:01Z,cs.CV
+2212.03533v2,Text Embeddings by Weakly-Supervised Contrastive Pre-training,2022-12-07T09:25:54Z,cs.CL
+2401.10891v2,Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data,2024-01-19T18:59:52Z,cs.CV
+2305.05084v6,Fast Conformer with Linearly Scalable Attention for Efficient Speech Recognition,2023-05-08T22:54:07Z,eess.AS
+2304.08069v3,DETRs Beat YOLOs on Real-time Object Detection,2023-04-17T08:30:02Z,cs.CV
+2310.06825v1,Mistral 7B,2023-10-10T17:54:58Z,cs.CL
+2312.05187v1,Seamless: Multilingual Expressive and Streaming Speech Translation,2023-12-08T17:18:42Z,cs.CL
+2206.04658v2,BigVGAN: A Universal Neural Vocoder with Large-Scale Training,2022-06-09T17:56:10Z,cs.SD
+2409.10173v3,jina-embeddings-v3: Multilingual Embeddings With Task LoRA,2024-09-16T11:10:29Z,cs.CL
+2309.12871v9,AnglE-optimized Text Embeddings,2023-09-22T13:52:42Z,cs.CL
+2403.02302v4,Beyond Specialization: Assessing the Capabilities of MLLMs in Age and Gender Estimation,2024-03-04T18:32:12Z,cs.CV
+2408.09869v5,Docling Technical Report,2024-08-19T10:20:06Z,cs.CL
+2205.11487v1,Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding,2022-05-23T17:42:53Z,cs.CV
+2506.07900v2,MiniCPM4: Ultra-Efficient LLMs on End Devices,2025-06-09T16:16:50Z,cs.CL
+2605.22064v2,"Hy-MT2: A Family of Fast, Efficient and Powerful Multilingual Translation Models in the Wild",2026-05-21T07:00:06Z,cs.CL
+2509.20354v3,EmbeddingGemma: Powerful and Lightweight Text Representations,2025-09-24T17:56:51Z,cs.CL
+2502.14786v1,"SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",2025-02-20T18:08:29Z,cs.CV
+2110.09456v2,NormFormer: Improved Transformer Pretraining with Extra Normalization,2021-10-18T16:47:45Z,cs.CL
+2007.00814v2,Relevance-guided Supervision for OpenQA with ColBERT,2020-07-01T23:50:58Z,cs.CL
+2106.04624v1,SpeechBrain: A General-Purpose Speech Toolkit,2021-06-08T18:22:56Z,eess.AS
+2104.01778v3,AST: Audio Spectrogram Transformer,2021-04-05T05:26:29Z,cs.SD
+2205.12446v1,FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech,2022-05-25T02:29:03Z,cs.CL
+2206.01062v1,DocLayNet: A Large Human-Annotated Dataset for Document-Layout Analysis,2022-06-02T14:25:12Z,cs.CV
+2207.12598v1,Classifier-Free Diffusion Guidance,2022-07-26T01:42:07Z,cs.LG
+1503.02531v1,Distilling the Knowledge in a Neural Network,2015-03-09T15:44:49Z,stat.ML
+2306.09683v3,Scaling Open-Vocabulary Object Detection,2023-06-16T08:27:46Z,cs.CV
+2406.09414v1,Depth Anything V2,2024-06-13T17:59:56Z,cs.CV
+2511.22677v1,"Decoupled DMD: CFG Augmentation as the Spear, Distribution Matching as the Shield",2025-11-27T18:24:28Z,cs.CV
+2412.02595v2,Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset,2024-12-03T17:28:50Z,cs.CL
+1905.07830v1,HellaSwag: Can a Machine Really Finish Your Sentence?,2019-05-19T23:57:23Z,cs.CL
+2508.06471v1,"GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",2025-08-08T17:21:06Z,cs.CL
+2209.06794v4,PaLI: A Jointly-Scaled Multilingual Language-Image Model,2022-09-14T17:24:07Z,cs.CV
+2501.12948v2,DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,2025-01-22T15:19:35Z,cs.CL
+2412.19437v2,DeepSeek-V3 Technical Report,2024-12-27T04:03:16Z,cs.CL
+2310.19923v4,Jina Embeddings 2: 8192-Token General-Purpose Text Embeddings for Long Documents,2023-10-30T18:35:30Z,cs.CL
+1904.03323v3,Publicly Available Clinical BERT Embeddings,2019-04-06T00:34:39Z,cs.CL
+2110.00061v3,PubTables-1M: Towards comprehensive table extraction from unstructured documents,2021-09-30T19:42:07Z,cs.LG
+2111.09883v2,Swin Transformer V2: Scaling Up Capacity and Resolution,2021-11-18T18:59:33Z,cs.CV
+2201.03545v2,A ConvNet for the 2020s,2022-01-10T18:59:10Z,cs.CV
+2201.08542v1,Can Model Compression Improve NLP Fairness,2022-01-21T05:14:51Z,cs.CL
+2106.06909v1,"GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10,000 Hours of Transcribed Audio",2021-06-13T04:09:16Z,cs.SD
+2505.13404v2,Granary: Speech Recognition and Translation Dataset in 25 European Languages,2025-05-19T17:40:58Z,cs.CL
+1510.08484v1,"MUSAN: A Music, Speech, and Noise Corpus",2015-10-28T20:59:04Z,cs.SD
+2312.17279v3,Stateful Conformer with Cache-based Inference for Streaming Automatic Speech Recognition,2023-12-27T21:04:26Z,cs.CL
+2409.12186v3,Qwen2.5-Coder Technical Report,2024-09-18T17:57:57Z,cs.CL
+2601.21337v2,Qwen3-ASR Technical Report,2026-01-29T06:58:13Z,cs.CL
+2410.01036v1,"MOSEL: 950,000 Hours of Speech Data for Open-Source Speech Foundation Model Training on EU Languages",2024-10-01T19:54:10Z,cs.CL
+2504.05299v1,SmolVLM: Redefining small and efficient multimodal models,2025-04-07T17:58:57Z,cs.AI
+2510.18234v1,DeepSeek-OCR: Contexts Optical Compression,2025-10-21T02:41:44Z,cs.CV
+2509.14128v2,Canary-1B-v2 & Parakeet-TDT-0.6B-v3: Efficient and High-Performance Models for Multilingual ASR and AST,2025-09-17T16:08:46Z,cs.CL
+2603.10910v2,GLM-OCR Technical Report,2026-03-11T15:55:47Z,cs.CL
+2604.19079v1,Reducing the Offline-Streaming Gap for Unified ASR Transducer with Consistency Regularization,2026-04-21T04:43:03Z,eess.AS
+2511.22699v5,Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer,2025-11-27T18:52:07Z,cs.CV
+2511.13649v5,Distribution Matching Distillation Meets Reinforcement Learning,2025-11-17T17:59:54Z,cs.CV
+2602.11298v3,Voxtral Realtime,2026-02-11T19:17:10Z,cs.AI
+2201.12086v2,BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation,2022-01-28T12:49:48Z,cs.CV
+2310.10688v4,A decoder-only foundation model for time-series forecasting,2023-10-14T17:01:37Z,cs.CL
+2205.09707v1,PLAID: An Efficient Engine for Late Interaction Retrieval,2022-05-19T17:19:31Z,cs.IR
+2110.13900v5,WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing,2021-10-26T17:55:19Z,cs.CL
+2112.01488v3,ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction,2021-12-02T18:38:50Z,cs.IR
+2012.03411v2,MLS: A Large-Scale Multilingual Dataset for Speech Research,2020-12-07T01:53:45Z,eess.AS
+2303.05499v5,Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection,2023-03-09T18:52:16Z,cs.CV
+2401.00368v3,Improving Text Embeddings with Large Language Models,2023-12-31T02:13:18Z,cs.CL
+2304.09325v2,Dynamic Chunk Convolution for Unified Streaming and Non-Streaming Conformer ASR,2023-04-18T22:18:40Z,eess.AS
+2410.06885v3,F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching,2024-10-09T13:46:34Z,eess.AS
+2511.16664v1,Nemotron Elastic: Towards Efficient Many-in-One Reasoning LLMs,2025-11-20T18:59:21Z,cs.CL
+2504.03624v4,Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models,2025-04-04T17:41:58Z,cs.CL
+2505.13033v3,TSPulse: Tiny Pre-Trained Models with Disentangled Representations for Rapid Time-Series Analysis,2025-05-19T12:18:53Z,cs.LG
+2601.03233v1,LTX-2: Efficient Joint Audio-Visual Foundation Model,2026-01-06T18:24:41Z,cs.CV
+2512.16899v3,Multimodal RewardBench 2: Evaluating Omni Reward Models for Interleaved Text and Image,2025-12-18T18:56:04Z,cs.CL
+2609.14973v1,PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models,2026-09-14T03:25:46Z,cs.CV
+2403.01616v2,Towards Comprehensive Vietnamese Retrieval-Augmented Generation and Large Language Models,2024-03-03T21:24:35Z,cs.CL
+2311.00430v1,Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling,2023-11-01T10:45:07Z,cs.CL
+2007.15207v2,MKQA: A Linguistically Diverse Benchmark for Multilingual Open Domain Question Answering,2020-07-30T03:33:46Z,cs.CL
+1911.01547v2,On the Measure of Intelligence,2019-11-05T00:31:38Z,cs.AI
+2004.05150v2,Longformer: The Long-Document Transformer,2020-04-10T17:54:09Z,cs.CL
+1908.08962v2,Well-Read Students Learn Better: On the Importance of Pre-training Compact Models,2019-08-23T18:02:05Z,cs.CL
+2109.11680v1,Simple and Effective Zero-shot Cross-lingual Phoneme Recognition,2021-09-23T22:50:32Z,cs.CL
+2409.07737v1,Ruri: Japanese General Text Embeddings,2024-09-12T04:06:31Z,cs.CL
+2403.12968v2,LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression,2024-03-19T17:59:56Z,cs.CL
+2404.16816v2,IndicGenBench: A Multilingual Benchmark to Evaluate Generation Capabilities of LLMs on Indic Languages,2024-04-25T17:57:36Z,cs.CL
+2601.14251v2,LightOnOCR: A 1B End-to-End Multilingual Vision-Language Model for State-of-the-Art OCR,2026-01-20T18:58:32Z,cs.CV
+2603.18178v2,VLM-AutoDrive: Post-Training Vision-Language Models for Safety-Critical Autonomous Driving Events,2026-03-18T18:23:34Z,cs.CV
+2606.23344v1,RT-DocLayout: Real-Time End-to-End Document Layout Analysis with Reading Order in the Wild,2026-06-22T13:48:39Z,cs.CV
+2311.16502v4,MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI,2023-11-27T17:33:21Z,cs.CL
+2007.15779v6,Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing,2020-07-31T00:04:15Z,cs.CL
+2508.02324v1,Qwen-Image Technical Report,2025-08-04T11:49:20Z,cs.CV
+2501.07301v2,The Lessons of Developing Process Reward Models in Mathematical Reasoning,2025-01-13T13:10:16Z,cs.CL
+2312.11805v5,Gemini: A Family of Highly Capable Multimodal Models,2023-12-19T02:39:27Z,cs.CL
+2607.04884v3,HunyuanOCR-1.5: Making Lightweight OCR VLMs Faster and Better,2026-07-06T10:06:05Z,cs.CV
+2107.07402v2,CLSRIL-23: Cross Lingual Speech Representations for Indic Languages,2021-07-15T15:42:43Z,cs.CL
+1910.11856v3,On the Cross-lingual Transferability of Monolingual Representations,2019-10-25T17:30:20Z,cs.CL
+2107.03374v2,Evaluating Large Language Models Trained on Code,2021-07-07T17:41:24Z,cs.LG
+1809.05053v1,XNLI: Evaluating Cross-lingual Sentence Representations,2018-09-13T16:39:53Z,cs.CL
+2210.13352v1,ESB: A Benchmark For Multi-Domain End-to-End Speech Recognition,2022-10-24T15:58:48Z,cs.CL
+2305.13035v5,Getting ViT in Shape: Scaling Laws for Compute-Optimal Model Design,2023-05-22T13:39:28Z,cs.CV
+2406.10721v1,RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics,2024-06-15T19:22:51Z,cs.RO
+2404.06654v3,RULER: What's the Real Context Size of Your Long-Context Language Models?,2024-04-09T23:41:27Z,cs.CL
+2502.07972v3,Training Sparse Mixture Of Experts Text Embedding Models,2025-02-11T21:36:31Z,cs.CL
+2507.21138v1,TTS-1 Technical Report,2025-07-22T23:57:11Z,cs.CL
+1904.09728v3,SocialIQA: Commonsense Reasoning about Social Interactions,2019-04-22T05:36:37Z,cs.CL
+2401.03407v7,Bilateral Reference for High-Resolution Dichotomous Image Segmentation,2024-01-07T07:56:47Z,cs.CV
+2504.13181v2,Perception Encoder: The best visual embeddings are not at the output of the network,2025-04-17T17:59:57Z,cs.CV
+1909.11942v6,ALBERT: A Lite BERT for Self-supervised Learning of Language Representations,2019-09-26T07:06:13Z,cs.CL
+2110.14168v2,Training Verifiers to Solve Math Word Problems,2021-10-27T04:49:45Z,cs.LG
+2602.06036v2,DFlash: Block Diffusion for Flash Speculative Decoding,2026-02-05T18:59:30Z,cs.CL
+2509.25085v4,jina-reranker-v3: Last but Not Late Interaction for Listwise Document Reranking,2025-09-29T17:23:54Z,cs.CL
+2509.24663v1,InfLLM-V2: Dense-Sparse Switchable Attention for Seamless Short-to-Long Adaptation,2025-09-29T12:08:33Z,cs.CL
+2601.04720v2,Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking,2026-01-08T08:36:06Z,cs.CL
+2601.18184v2,VIBEVOICE-ASR Technical Report,2026-01-26T06:11:51Z,cs.SD
+1903.00161v2,DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs,2019-03-01T05:32:01Z,cs.CL
+1810.12440v2,TallyQA: Answering Complex Counting Questions,2018-10-29T22:29:45Z,cs.CV
+2204.08387v3,LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking,2022-04-18T16:19:52Z,cs.CL
+1908.02660v2,SpatialSense: An Adversarially Crowdsourced Benchmark for Spatial Relation Recognition,2019-08-07T14:41:30Z,cs.CV
+2210.09984v1,Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages,2022-10-18T16:47:18Z,cs.IR
+1607.01759v3,Bag of Tricks for Efficient Text Classification,2016-07-06T19:40:15Z,cs.CL
+2407.18887v1,Embedding And Clustering Your Data Can Improve Contrastive Pretraining,2024-07-26T17:36:40Z,cs.LG
+1802.06893v2,Learning Word Vectors for 157 Languages,2018-02-19T22:32:47Z,cs.CL
+1911.03894v3,CamemBERT: a Tasty French Language Model,2019-11-10T10:46:37Z,cs.CL
+2508.18265v2,"InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency",2025-08-25T17:58:17Z,cs.CV
+2411.10442v2,Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization,2024-11-15T18:59:27Z,cs.CL
+2502.21228v3,ECLeKTic: a Novel Challenge Set for Evaluation of Cross-Lingual Knowledge Transfer,2025-02-28T16:59:30Z,cs.CL
+2511.23404v1,LFM2 Technical Report,2025-11-28T17:56:35Z,cs.LG
+2211.01786v2,Crosslingual Generalization through Multitask Finetuning,2022-11-03T13:19:32Z,cs.CL
+2412.05271v5,"Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",2024-12-06T18:57:08Z,cs.CV
+2412.06559v4,ProcessBench: Identifying Process Errors in Mathematical Reasoning,2024-12-09T15:11:40Z,cs.AI
+2503.06800v1,VideoPhy-2: A Challenging Action-Centric Physical Commonsense Evaluation in Video Generation,2025-03-09T22:49:12Z,cs.CV
+2502.12404v1,WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects,2025-02-18T00:39:30Z,cs.CL
+1607.04606v2,Enriching Word Vectors with Subword Information,2016-07-15T18:27:55Z,cs.CL
+1612.03651v1,FastText.zip: Compressing text classification models,2016-12-12T12:51:03Z,cs.CL
+2609.11977v1,Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work,2026-09-04T03:32:26Z,cs.AI
+2312.14238v3,InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks,2023-12-21T18:59:31Z,cs.CV
+2311.12022v1,GPQA: A Graduate-Level Google-Proof Q&A Benchmark,2023-11-20T18:57:34Z,cs.AI
+2104.12250v2,XLM-T: Multilingual Language Models in Twitter for Sentiment Analysis and Beyond,2021-04-25T20:28:53Z,cs.CL
+2104.08821v4,SimCSE: Simple Contrastive Learning of Sentence Embeddings,2021-04-18T11:27:08Z,cs.CL
+2106.07447v1,HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units,2021-06-14T14:14:28Z,cs.CL
+2108.07732v1,Program Synthesis with Large Language Models,2021-08-16T03:57:30Z,cs.PL
+2106.00666v3,You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection,2021-06-01T17:54:09Z,cs.CV
+2103.03874v2,Measuring Mathematical Problem Solving With the MATH Dataset,2021-03-05T18:59:39Z,cs.LG
+1705.03551v2,TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension,2017-05-09T21:35:07Z,cs.CL
+1605.07146v4,Wide Residual Networks,2016-05-23T19:27:13Z,cs.CV
+2408.12503v2,The Russian-focused embedders' exploration: ruMTEB benchmark and Russian embedding model design,2024-08-22T15:53:23Z,cs.CL
+2404.12390v4,BLINK: Multimodal Large Language Models Can See but Not Perceive,2024-04-18T17:59:54Z,cs.CV
+2402.07440v3,Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT,2024-02-12T06:43:52Z,cs.IR
+2407.02490v2,MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention,2024-07-02T17:59:56Z,cs.CL
+2309.10931v4,A Family of Pretrained Transformer Language Models for Russian,2023-09-19T21:07:52Z,cs.CL
+2601.09012v3,TranslateGemma Technical Report,2026-01-13T22:23:24Z,cs.CL
+2601.22156v1,Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts,2026-01-29T18:59:53Z,cs.CL
+1907.10641v2,WinoGrande: An Adversarial Winograd Schema Challenge at Scale,2019-07-24T18:11:59Z,cs.CL
+2508.10104v1,DINOv3,2025-08-13T18:00:55Z,cs.CV
+2104.12756v2,InfographicVQA,2021-04-26T17:45:54Z,cs.CV
+2607.05147v1,DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation,2026-07-06T14:28:06Z,cs.AI
+2503.19786v1,Gemma 3 Technical Report,2025-03-25T15:52:34Z,cs.CL
+2601.20088v3,Quantization-Aware Distillation for NVFP4 Inference Accuracy Recovery,2026-01-27T22:14:47Z,cs.LG
+2410.16261v3,Mini-InternVL: A Flexible-Transfer Pocket Multimodal Model with 5% Parameters and 90% Performance,2024-10-21T17:58:20Z,cs.CV
+2210.03057v1,Language Models are Multilingual Chain-of-Thought Reasoners,2022-10-06T17:03:34Z,cs.CL
+2210.11416v5,Scaling Instruction-Finetuned Language Models,2022-10-20T16:58:32Z,cs.LG
+2307.01672v1,Boosting Norwegian Automatic Speech Recognition,2023-07-04T12:05:15Z,cs.CL
+2203.10244v1,ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning,2022-03-19T05:00:30Z,cs.CL
+2009.03300v3,Measuring Massive Multitask Language Understanding,2020-09-07T17:59:25Z,cs.CY
+2106.03193v1,The FLORES-101 Evaluation Benchmark for Low-Resource and Multilingual Machine Translation,2021-06-06T17:58:12Z,cs.CL
+2104.07179v1,Does Putting a Linguist in the Loop Improve NLU Data Collection?,2021-04-15T00:31:10Z,cs.CL
+2402.17463v2,Training-Free Long-Context Scaling of Large Language Models,2024-02-27T12:39:23Z,cs.CL
+2304.06364v2,AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models,2023-04-13T09:39:30Z,cs.CL
+2501.15383v1,Qwen2.5-1M Technical Report,2025-01-26T03:47:25Z,cs.CL
+2504.10479v3,InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models,2025-04-14T17:59:25Z,cs.CV
+2509.24650v1,VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning,2025-09-29T12:00:24Z,cs.SD
+2309.05516v5,Optimize Weight Rounding via Signed Gradient Descent for the Quantization of LLMs,2023-09-11T14:58:23Z,cs.CL
+2312.14115v4,LingoQA: Visual Question Answering for Autonomous Driving,2023-12-21T18:40:34Z,cs.RO
+2110.01518v1,Generalization in NLI: Ways (Not) To Go Beyond Simple Heuristics,2021-10-04T15:37:07Z,cs.CL
+2404.16821v2,How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites,2024-04-25T17:59:19Z,cs.CV
+2010.11430v1,Self-training and Pre-training are Complementary for Speech Recognition,2020-10-22T04:15:37Z,cs.LG
+2307.04725v2,AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning,2023-07-10T17:34:16Z,cs.CV
+2201.11838v3,Clinical-Longformer and Clinical-BigBird: Transformers for long clinical sequences,2022-01-27T22:51:58Z,cs.CL
+2205.14756v6,EfficientViT: Multi-Scale Linear Attention for High-Resolution Dense Prediction,2022-05-29T20:07:23Z,cs.CV
+2112.01527v3,Masked-attention Mask Transformer for Universal Image Segmentation,2021-12-02T18:59:58Z,cs.CV
+1904.09077v2,"Beto, Bentz, Becas: The Surprising Cross-Lingual Effectiveness of BERT",2019-04-19T04:45:44Z,cs.CL
+2103.13413v1,Vision Transformers for Dense Prediction,2021-03-24T18:01:17Z,cs.CV
+2104.02821v2,Towards Measuring Fairness in AI: the Casual Conversations Dataset,2021-04-06T22:48:22Z,cs.CV
+2106.10270v2,"How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers",2021-06-18T17:58:20Z,cs.CV
+2404.05961v2,LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders,2024-04-09T02:51:05Z,cs.CL
+2304.02643v1,Segment Anything,2023-04-05T17:59:46Z,cs.CV
+2303.11331v2,EVA-02: A Visual Representation for Neon Genesis,2023-03-20T17:59:59Z,cs.CV
+1706.03762v7,Attention Is All You Need,2017-06-12T17:57:34Z,cs.CL
+2509.06888v1,mmBERT: A Modern Multilingual Encoder with Annealed Language Learning,2025-09-08T17:08:42Z,cs.CL
+2510.21204v1,Mitra: Mixed Synthetic Priors for Enhancing Tabular Foundation Models,2025-10-24T07:15:06Z,cs.LG
+2509.14233v2,Apertus: Democratizing Open and Compliant LLMs for Global Language Environments,2025-09-17T17:59:21Z,cs.CL
+2503.05931v2,Training and Inference Efficiency of Encoder-Decoder Speech Models,2025-03-07T20:57:43Z,cs.CL
+2412.01007v3,CoRNStack: High-Quality Contrastive Data for Better Code Retrieval and Reranking,2024-12-01T23:54:12Z,cs.CL
+2407.15831v2,NV-Retriever: Improving text embedding models with effective hard-negative mining,2024-07-22T17:50:31Z,cs.IR
+2405.17428v3,NV-Embed: Improved Techniques for Training LLMs as Generalist Embedding Models,2024-05-27T17:59:45Z,cs.CL
+2504.07097v1,Sculpting Subspaces: Constrained Full Fine-Tuning in LLMs for Continual Learning,2025-04-09T17:59:42Z,cs.LG
+2412.04862v3,EXAONE 3.5: Series of Large Language Models for Real-world Use Cases,2024-12-06T08:53:46Z,cs.CL
+2511.06876v1,"Generating an Image From 1,000 Words: Enhancing Text-to-Image With Structured Captions",2025-11-10T09:25:25Z,cs.CV
+2610.28578v1,Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition,2026-10-20T17:32:48Z,cs.AI
+2412.03555v1,PaliGemma 2: A Family of Versatile VLMs for Transfer,2024-12-04T18:50:42Z,cs.CV
+2610.37364v1,EmbeddingGemma 2: Unified and Efficient Multimodal Representations,2026-10-27T15:00:42Z,cs.LG
+1909.08053v4,Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism,2019-09-17T19:42:54Z,cs.CL
+1911.02150v1,Fast Transformer Decoding: One Write-Head is All You Need,2019-11-06T00:19:05Z,cs.NE
+2004.13922v2,Revisiting Pre-Trained Models for Chinese Natural Language Processing,2020-04-29T02:08:30Z,cs.CL
+2101.03697v3,RepVGG: Making VGG-style ConvNets Great Again,2021-01-11T04:46:11Z,cs.CV
+2101.00190v1,Prefix-Tuning: Optimizing Continuous Prompts for Generation,2021-01-01T08:00:36Z,cs.CL
+2102.09542v1,SLAKE: A Semantically-Labeled Knowledge-Enhanced Dataset for Medical Visual Question Answering,2021-02-18T18:44:50Z,cs.CV
+2105.03824v4,FNet: Mixing Tokens with Fourier Transforms,2021-05-09T03:32:48Z,cs.CL
+2106.14463v3,RadGraph: Extracting Clinical Entities and Relations from Radiology Reports,2021-06-28T08:24:23Z,cs.CL
+2107.06278v2,Per-Pixel Classification is Not All You Need for Semantic Segmentation,2021-07-13T17:59:50Z,cs.CV
+2112.10003v2,Image Segmentation Using Text and Image Prompts,2021-12-18T21:27:19Z,cs.CV
+2106.09462v3,pysentimiento: A Python Toolkit for Opinion Mining and Social NLP tasks,2021-06-17T13:15:07Z,cs.CL
+2406.12793v2,ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools,2024-06-18T16:58:21Z,cs.CL
+2409.13523v1,EMMeTT: Efficient Multimodal Machine Translation Training,2024-09-20T14:03:23Z,cs.CL
+2502.05139v1,"Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound",2025-02-07T18:15:57Z,cs.SD
+2602.11151v2,Diffusion-Pretrained Dense and Contextual Embeddings,2026-02-11T18:59:08Z,cs.LG
+2404.14219v4,Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone,2024-04-22T14:32:33Z,cs.CL
+2110.01485v2,JuriBERT: A Masked-Language Model Adaptation for French Legal Text,2021-10-04T14:51:24Z,cs.CL
+2609.20269v3,"Placement Is Free, Composition Is Not: The Latin Square as a Provably-Balanced Construction for Heterogeneous Sequence-Mixer Stacks",2026-07-29T06:39:03Z,cs.LG
+2507.05201v4,MedGemma Technical Report,2025-07-07T17:01:44Z,cs.AI
+2502.13595v4,MMTEB: Massive Multilingual Text Embedding Benchmark,2025-02-19T10:13:43Z,cs.CL
+2009.13081v1,What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams,2020-09-28T05:07:51Z,cs.CL
+1906.01502v1,How multilingual is Multilingual BERT?,2019-06-04T15:12:47Z,cs.CL
+1905.11946v5,EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks,2019-05-28T17:05:32Z,cs.LG
+2104.14294v2,Emerging Properties in Self-Supervised Vision Transformers,2021-04-29T12:28:51Z,cs.CV
+2104.04045v2,End-to-end speaker segmentation for overlap-aware resegmentation,2021-04-08T20:38:17Z,eess.AS
+2301.00808v1,ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders,2023-01-02T18:59:31Z,cs.CV
+2301.12597v3,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models,2023-01-30T00:56:51Z,cs.CV
+2210.00434v2,Music-to-Text Synaesthesia: Generating Descriptive Text from Music Recordings,2022-10-02T06:06:55Z,eess.AS
+2305.13516v1,"Scaling Speech Technology to 1,000+ Languages",2023-05-22T22:09:41Z,cs.CL
+2311.16075v1,BioLORD-2023: Semantic Textual Representations Fusing LLM and Clinical Knowledge Graph Insights,2023-11-27T18:46:17Z,cs.CL
+2403.06412v4,CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean,2024-03-11T03:54:33Z,cs.CL
+2310.16248v3,GlotLID: Language Identification for Low-Resource Languages,2023-10-24T23:45:57Z,cs.CL
+2408.11857v1,Hermes 3 Technical Report,2024-08-15T20:17:33Z,cs.CL
+2605.14386v1,Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning,2026-05-14T05:09:12Z,cs.NE
+2407.13833v2,"Phi-3 Safety Post-Training: Aligning Language Models with a ""Break-Fix"" Cycle",2024-07-18T18:06:59Z,cs.CL
+1904.09751v2,The Curious Case of Neural Text Degeneration,2019-04-22T07:17:18Z,cs.CL
+2601.20552v1,DeepSeek-OCR 2: Visual Causal Flow,2026-01-28T12:46:07Z,cs.CV
+1212.1442v1,Algorithms for the Markov Entropy Decomposition,2012-12-06T20:42:59Z,cond-mat.stat-mech
+2305.15272v2,ViTMatte: Boosting Image Matting with Pretrained Plain Vision Transformers,2023-05-24T15:59:35Z,cs.CV
+1904.02099v3,"75 Languages, 1 Model: Parsing Universal Dependencies Universally",2019-04-03T16:52:55Z,cs.CL
+2110.02861v2,8-bit Optimizers via Block-wise Quantization,2021-10-06T15:43:20Z,cs.LG
+2103.10360v2,GLM: General Language Model Pretraining with Autoregressive Blank Infilling,2021-03-18T16:30:26Z,cs.CL
+2412.09262v2,LatentSync: Taming Audio-Conditioned Latent Diffusion Models for Lip Sync with SyncNet Supervision,2024-12-12T13:20:52Z,cs.CV
+2407.14679v2,Compact Language Models via Pruning and Knowledge Distillation,2024-07-19T21:47:57Z,cs.CL
+2405.05374v1,"Arctic-Embed: Scalable, Efficient, and Accurate Text Embedding Models",2024-05-08T19:05:18Z,cs.CL
+2405.03162v1,Advancing Multimodal Medical Capabilities of Gemini,2024-05-06T04:44:22Z,cs.CV
+2408.15710v2,Conan-embedding: General Text Embedding with More and Better Negative Samples,2024-08-28T11:18:06Z,cs.CL
+2507.18546v1,GLiNER2: An Efficient Multi-Task Information Extraction System with Schema-Driven Interface,2025-07-24T16:11:14Z,cs.CL
+2009.05387v3,IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding,2020-09-11T12:21:41Z,cs.CL
+2411.15640v4,"AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset",2024-11-23T19:43:02Z,cs.CL
+2603.12201v1,IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse,2026-03-12T17:27:21Z,cs.CL
+2412.08905v1,Phi-4 Technical Report,2024-12-12T03:37:41Z,cs.CL
+2602.02276v2,Kimi K2.5: Visual Agentic Intelligence,2026-02-02T16:17:38Z,cs.CL
+2210.02414v2,GLM-130B: An Open Bilingual Pre-trained Model,2022-10-05T17:34:44Z,cs.CL
+2309.16588v2,Vision Transformers Need Registers,2023-09-28T16:45:46Z,cs.CV
+2404.01657v1,Release of Pre-Trained Models for the Japanese Language,2024-04-02T05:59:43Z,cs.CL
+1906.01569v1,Sequence Tagging with Contextual and Non-Contextual Subword Representations: A Multilingual Evaluation,2019-06-04T16:36:53Z,cs.CL
+1901.07291v1,Cross-lingual Language Model Pretraining,2019-01-22T13:22:34Z,cs.CL
+1908.11828v1,PAWS-X: A Cross-lingual Adversarial Dataset for Paraphrase Identification,2019-08-30T16:40:00Z,cs.CL
+1909.10351v5,TinyBERT: Distilling BERT for Natural Language Understanding,2019-09-23T13:05:35Z,cs.CL
+1908.09203v2,Release Strategies and the Social Impacts of Language Models,2019-08-24T20:41:40Z,cs.CL
+2003.00104v4,AraBERT: Transformer-based Model for Arabic Language Understanding,2020-02-28T22:59:24Z,cs.CL
+1812.10464v2,Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond,2018-12-26T18:58:39Z,cs.CL
+2103.14030v2,Swin Transformer: Hierarchical Vision Transformer using Shifted Windows,2021-03-25T17:59:31Z,cs.CV
+2408.08821v4,EasyRec: Simple yet Effective Language Models for Recommendation,2024-08-16T16:09:59Z,cs.IR
+2503.01743v2,Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs,2025-03-03T17:05:52Z,cs.CL
+2501.18362v3,MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding,2025-01-30T14:07:56Z,cs.AI
+2501.19393v3,s1: Simple test-time scaling,2025-01-31T18:48:08Z,cs.CL
+2503.11651v1,VGGT: Visual Geometry Grounded Transformer,2025-03-14T17:59:47Z,cs.CV
+2504.02268v1,Advancing Semantic Caching for LLMs with Domain-Specific Embeddings and Synthetic Data,2025-04-03T04:27:02Z,cs.LG
+2404.05590v2,MedExpQA: Multilingual Benchmarking of Large Language Models for Medical Question Answering,2024-04-08T15:03:57Z,cs.CL
+2406.16678v2,"Segment Any Text: A Universal Approach for Robust, Efficient and Adaptable Sentence Segmentation",2024-06-24T14:36:11Z,cs.CL
+2605.08560v1,ZAYA1-VL-8B Technical Report,2026-05-08T23:41:13Z,cs.CV
+2402.13929v3,SDXL-Lightning: Progressive Adversarial Diffusion Distillation,2024-02-21T16:51:05Z,cs.CV
+2310.17389v1,ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation,2023-10-26T13:35:41Z,cs.CL
+2104.09864v5,RoFormer: Enhanced Transformer with Rotary Position Embedding,2021-04-20T09:54:06Z,cs.CL
+2204.12484v3,ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation,2022-04-26T17:55:04Z,cs.CV
+2109.02903v2,IndicBART: A Pre-trained Model for Indic Natural Language Generation,2021-09-07T07:08:33Z,cs.CL
+1907.06292v1,TWEETQA: A Social Media Focused Question Answering Dataset,2019-07-14T22:20:59Z,cs.CL
+2002.08155v4,CodeBERT: A Pre-Trained Model for Programming and Natural Languages,2020-02-19T13:09:07Z,cs.CL
+1405.0312v3,Microsoft COCO: Common Objects in Context,2014-05-01T21:43:32Z,cs.CV
+2412.08635v1,Multimodal Latent Language Modeling with Next-Token Diffusion,2024-12-11T18:57:32Z,cs.CL
+2302.07452v1,How to Train Your DRAGON: Diverse Augmentation Towards Generalizable Dense Retrieval,2023-02-15T03:53:26Z,cs.IR
+2601.08584v1,Ministral 3,2026-01-13T14:06:03Z,cs.CL
+2307.09288v2,Llama 2: Open Foundation and Fine-Tuned Chat Models,2023-07-18T14:31:57Z,cs.CL
+2407.01449v6,ColPali: Efficient Document Retrieval with Vision Language Models,2024-06-27T15:45:29Z,cs.IR
+2405.06706v1,Exploring the Capabilities of Large Multimodal Models on Dense Text,2024-05-09T07:47:25Z,cs.CL
+2501.01108v2,MuQ: Self-Supervised Music Representation Learning with Mel Residual Vector Quantization,2025-01-02T07:08:29Z,cs.SD
+2505.17589v2,CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training,2025-05-23T07:55:21Z,cs.SD
+2204.03475v2,Solving ImageNet: a Unified Scheme for Training any Backbone to Top Results,2022-04-07T14:43:58Z,cs.CV
+2506.01192v1,GigaAM: Efficient Self-Supervised Learner for Speech Recognition,2025-06-01T22:03:40Z,eess.AS
+2610.24628v3,Muse Glimmer 30B: An On-Device Agentic Model,2026-10-17T11:05:21Z,cs.CL
+2105.13626v3,ByT5: Towards a token-free future with pre-trained byte-to-byte models,2021-05-28T07:03:22Z,cs.CL
+2103.01913v2,WIT: Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning,2021-03-02T18:13:54Z,cs.CV
+2205.12522v2,Crossmodal-3600: A Massively Multilingual Multimodal Evaluation Dataset,2022-05-25T06:30:19Z,cs.CV
+2203.12602v3,VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training,2022-03-23T17:55:10Z,cs.CV
+2211.06220v2,OneFormer: One Transformer to Rule Universal Image Segmentation,2022-11-10T18:56:04Z,cs.CV
+2305.07759v2,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,2023-05-12T20:56:48Z,cs.CL
+2302.05543v3,Adding Conditional Control to Text-to-Image Diffusion Models,2023-02-10T23:12:37Z,cs.CV
+2308.06721v1,IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models,2023-08-13T08:34:51Z,cs.CV
+2204.06745v1,GPT-NeoX-20B: An Open-Source Autoregressive Language Model,2022-04-14T04:00:27Z,cs.CL
+2402.02592v2,Unified Training of Universal Time Series Forecasting Transformers,2024-02-04T20:00:45Z,cs.LG
+2401.10225v5,ChatQA: Surpassing GPT-4 on Conversational QA and RAG,2024-01-18T18:59:11Z,cs.CL
+1508.05326v1,A large annotated corpus for learning natural language inference,2015-08-21T16:17:01Z,cs.CL
+1804.07461v3,GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding,2018-04-20T06:35:04Z,cs.CL
+2602.14979v1,RynnBrain: Open Embodied Foundation Models,2026-02-13T18:59:56Z,cs.RO
+2603.11243v1,Self-Speculative Decoding for LLM-based ASR with CTC Encoder Drafts,2026-03-11T19:10:50Z,eess.AS
+2508.01630v1,"OpenMed NER: Open-Source, Domain-Adapted State-of-the-Art Transformers for Biomedical NER Across 12 Public Datasets",2025-08-03T07:33:28Z,cs.CL
+2404.10690v2,MathWriting: A Dataset For Handwritten Mathematical Expression Recognition,2024-04-16T16:10:23Z,cs.CV
+2605.27365v2,LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding,2026-05-26T17:59:12Z,cs.CV
+2505.18125v2,TabSTAR: A Tabular Foundation Model for Tabular Data with Text Fields,2025-05-23T17:34:28Z,cs.LG
+2510.14276v1,Qwen3Guard Technical Report,2025-10-16T04:00:18Z,cs.CL
+2508.19205v1,VibeVoice Technical Report,2025-08-26T17:09:12Z,cs.CL
+2602.12147v4,It's TIME: Towards the Next Generation of Time Series Forecasting Benchmarks,2026-02-12T16:31:01Z,cs.LG
+2605.20119v2,Toto 2.0: Time Series Forecasting Enters the Scaling Era,2026-05-19T17:08:24Z,cs.LG
+2003.13678v1,Designing Network Design Spaces,2020-03-30T17:57:47Z,cs.CV
+1905.13648v2,Scene Text Visual Question Answering,2019-05-31T14:47:55Z,cs.CV
+2111.09296v3,XLS-R: Self-supervised Cross-lingual Speech Representation Learning at Scale,2021-11-17T18:49:42Z,cs.CL
+2005.08072v2,Speech Recognition and Multi-Speaker Diarization of Long Conversations,2020-05-16T19:29:33Z,eess.AS
+2108.03353v1,Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning,2021-08-07T03:01:23Z,cs.HC
+2208.02816v1,Expanding Language-Image Pretrained Models for General Video Recognition,2022-08-04T17:59:54Z,cs.CV
+2403.04473v2,TextMonkey: An OCR-Free Large Multimodal Model for Understanding Document,2024-03-07T13:16:24Z,cs.CV
+2010.11125v1,Beyond English-Centric Multilingual Machine Translation,2020-10-21T17:01:23Z,cs.CL
+2505.08699v2,Granite-speech: open-source speech-aware LLMs with strong English ASR capabilities,2025-05-13T15:58:57Z,eess.AS
+2504.07491v3,Kimi-VL Technical Report,2025-04-10T06:48:26Z,cs.CV
+2403.08295v4,Gemma: Open Models Based on Gemini Research and Technology,2024-03-13T06:59:16Z,cs.CL
+2412.10117v3,CosyVoice 2: Scalable Streaming Speech Synthesis with Large Language Models,2024-12-13T12:59:39Z,cs.SD
+1608.00272v3,Modeling Context in Referring Expressions,2016-07-31T22:21:42Z,cs.CV
+2501.12202v5,Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation,2025-01-21T15:16:54Z,cs.CV
+2507.19427v1,Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding,2025-07-25T16:53:13Z,cs.LG
+2407.07726v2,PaliGemma: A versatile 3B VLM for transfer,2024-07-10T14:57:46Z,cs.CV
+2310.09199v2,"PaLI-3 Vision Language Models: Smaller, Faster, Stronger",2023-10-13T15:45:19Z,cs.CV
+2209.14008v2,Keyword Extraction from Short Texts with a Text-To-Text Transfer Transformer,2022-09-28T11:31:43Z,cs.CL
+2401.06209v2,Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs,2024-01-11T18:58:36Z,cs.CV
+2010.12421v2,TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification,2020-10-23T14:11:04Z,cs.CL
+1905.00546v1,Billion-scale semi-supervised learning for image classification,2019-05-02T02:08:18Z,cs.CV
+2109.10852v2,Pix2seq: A Language Modeling Framework for Object Detection,2021-09-22T17:26:36Z,cs.CV
+2111.06377v3,Masked Autoencoders Are Scalable Vision Learners,2021-11-11T18:46:40Z,cs.CV
+2104.04052v1,AlephBERT:A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With,2021-04-08T20:51:29Z,cs.CL
+2306.05685v4,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,2023-06-09T05:55:52Z,cs.CL
+2410.02525v4,Contextual Document Embeddings,2024-10-03T14:33:34Z,cs.CL
+2407.05407v2,CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens,2024-07-07T15:16:19Z,cs.SD
+2407.21772v2,ShieldGemma: Generative AI Content Moderation Based on Gemma,2024-07-31T17:48:14Z,cs.CL
+2503.20215v1,Qwen2.5-Omni Technical Report,2025-03-26T04:17:55Z,cs.CL
+2506.15742v2,FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space,2025-06-17T20:18:23Z,cs.GR
+2506.14111v2,Essential-Web v1.0: 24T tokens of organized web data,2025-06-17T02:03:36Z,cs.CL
+2604.12012v1,TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment,2026-04-13T20:00:04Z,cs.CV
+2411.02293v5,Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation,2024-11-04T17:21:42Z,cs.CV
+2602.10604v2,Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters,2026-02-11T07:53:51Z,cs.CL
+2610.39308v2,Unlimited OCR Works 2,2026-10-29T03:55:21Z,cs.CL
+2209.04372v1,Pre-training image-language transformers for open-vocabulary tasks,2022-09-09T16:11:11Z,cs.CV
+2305.10355v3,Evaluating Object Hallucination in Large Vision-Language Models,2023-05-17T16:34:01Z,cs.CV
+2206.10589v3,EdgeNeXt: Efficiently Amalgamated CNN-Transformer Architecture for Mobile Vision Applications,2022-06-21T17:59:56Z,cs.CV
+2205.04733v2,From Distillation to Hard Negative Sampling: Making Sparse Neural IR Models More Effective,2022-05-10T08:08:43Z,cs.IR
+2010.05646v2,HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis,2020-10-12T12:33:43Z,cs.SD
+2010.04295v1,Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements,2020-10-08T22:56:03Z,cs.LG
+1908.03195v2,LVIS: A Dataset for Large Vocabulary Instance Segmentation,2019-08-08T17:57:01Z,cs.CV
+2106.09553v3,Large-Scale Chemical Language Representations Capture Molecular Structure and Properties,2021-06-17T14:33:55Z,cs.LG
+2109.10282v5,TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models,2021-09-21T16:01:56Z,cs.CL
+2110.11624v2,SciCap: Generating Captions for Scientific Figures,2021-10-22T07:10:41Z,cs.CL
+2106.09685v2,LoRA: Low-Rank Adaptation of Large Language Models,2021-06-17T17:37:18Z,cs.CL
+2510.12798v1,Detect Anything via Next Point Prediction,2025-10-14T17:59:54Z,cs.CV
+2311.08526v1,GLiNER: Generalist Model for Named Entity Recognition using Bidirectional Transformer,2023-11-14T20:39:12Z,cs.CL
+2601.05593v1,PaCoRe: Learning to Scale Test-Time Compute with Parallel Coordinated Reasoning,2026-01-09T07:24:43Z,cs.LG
+2512.16649v1,JustRL: Scaling a 1.5B LLM with a Simple RL Recipe,2025-12-18T15:21:25Z,cs.CL
+2503.20314v2,Wan: Open and Advanced Large-Scale Video Generative Models,2025-03-26T08:25:43Z,cs.CV
+2504.07981v1,ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use,2025-04-04T14:25:17Z,cs.CV
+2408.00714v2,SAM 2: Segment Anything in Images and Videos,2024-08-01T17:00:08Z,cs.CV
+2210.08402v1,LAION-5B: An open large-scale dataset for training next generation image-text models,2022-10-16T00:08:18Z,cs.CV
+2604.13016v2,"Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",2026-04-14T17:54:28Z,cs.LG
+2511.11698v3,Moirai 2.0: When Less Is More for Time Series Forecasting,2025-11-12T12:15:35Z,cs.LG
+2607.11562v1,MonkeyOCRv2: A Visual-Text Foundation Model for Document AI,2026-07-13T13:43:39Z,cs.CV
+2607.17977v2,RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model,2026-07-20T14:13:27Z,cs.RO
+1901.07031v1,CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison,2019-01-21T18:41:59Z,cs.CV
+2308.12950v3,Code Llama: Open Foundation Models for Code,2023-08-24T17:39:13Z,cs.CL
+2211.01335v3,Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese,2022-11-02T17:47:23Z,cs.CV
+1905.12516v1,Racial Bias in Hate Speech and Abusive Language Detection Datasets,2019-05-29T15:12:58Z,cs.CL
+2104.08836v3,LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding,2021-04-18T12:16:00Z,cs.CL
+2402.16040v5,EHRNoteQA: An LLM Benchmark for Real-World Clinical Practice Using Discharge Summaries,2024-02-25T09:41:50Z,cs.CL
+2407.09276v1,H2O-Danube3 Technical Report,2024-07-12T14:09:40Z,cs.CL
+2411.19799v1,INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge,2024-11-29T16:03:14Z,cs.CL
+2508.14444v4,NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model,2025-08-20T06:00:57Z,cs.CL
+2603.08397v1,NLE: Non-autoregressive LLM-based ASR by Transcript Editing,2026-03-09T13:56:52Z,eess.AS
+2605.08985v1,LLaVA-UHD v4: What Makes Efficient Visual Encoding in MLLMs?,2026-05-09T15:10:26Z,cs.CV
+2411.15124v5,Tulu 3: Pushing Frontiers in Open Language Model Post-Training,2024-11-22T18:44:04Z,cs.CL
+1907.10529v3,SpanBERT: Improving Pre-training by Representing and Predicting Spans,2019-07-24T15:43:40Z,cs.CL
+2101.06983v2,Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup,2021-01-18T10:42:34Z,cs.LG
+2310.02943v1,LibriSpeech-PC: Benchmark for Evaluation of Punctuation and Capitalization Capabilities of end-to-end ASR Models,2023-10-04T16:23:37Z,cs.CL
+2310.05492v4,How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition,2023-10-09T07:56:16Z,cs.CL
+2408.01800v1,MiniCPM-V: A GPT-4V Level MLLM on Your Phone,2024-08-03T15:02:21Z,cs.CV
+2404.10518v2,MobileNetV4 -- Universal Models for the Mobile Ecosystem,2024-04-16T12:41:25Z,cs.CV
+2308.08747v5,An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning,2023-08-17T02:53:23Z,cs.CL
+2604.22817v1,In-Sync: Adaptation of Speech Aware Large Language Models for ASR with Word Level Timestamp Predictions,2026-04-14T20:56:24Z,eess.AS
+2604.12398v1,Contextual Biasing for ASR in Speech LLM with Common Word Cues and Bias Word Position Prediction,2026-04-14T07:33:44Z,eess.AS
+2409.06656v3,Sortformer: A Novel Approach for Permutation-Resolved Speaker Supervision in Speech-to-Text Systems,2024-09-10T17:20:11Z,eess.AS
+2507.18446v1,Streaming Sortformer: Speaker Cache-Based Online Speaker Diarization with Arrival-Time Ordering,2025-07-24T14:30:48Z,eess.AS
+2509.18154v1,"MiniCPM-V 4.5: Cooking Efficient MLLMs via Architecture, Data, and Training Recipe",2025-09-16T19:41:48Z,cs.LG
+2409.19946v1,Illustrious: an Open Advanced Illustration Model,2024-09-30T04:59:12Z,cs.CV
+2410.10733v8,Deep Compression Autoencoder for Efficient High-Resolution Diffusion Models,2024-10-14T17:15:07Z,cs.CV
+2604.11269v1,Speaker Attributed Automatic Speech Recognition Using Speech Aware LLMS,2026-04-13T10:23:58Z,eess.AS
+2604.27393v1,MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction,2026-04-30T04:05:43Z,cs.CL
+2605.09973v1,GLiNER2-PII: A Multilingual Model for Personally Identifiable Information Extraction,2026-05-11T04:29:30Z,cs.CL
+2502.05003v2,QuEST: Stable Training of LLMs with 1-Bit Weights and Activations,2025-02-07T15:23:34Z,cs.LG
+2206.04615v3,Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models,2022-06-09T17:05:34Z,cs.CL
+2607.18152v1,jina-reranker-v3.5: An Efficient Listwise Reranker with Hybrid Attention and Self-Distillation,2026-07-20T16:50:20Z,cs.IR
+2609.04540v1,Mitra-v2 Technical Report,2026-09-03T22:55:05Z,cs.LG
+2005.12872v3,End-to-End Object Detection with Transformers,2020-05-26T17:06:38Z,cs.CV
+2101.00434v2,Coreference Resolution without Span Representations,2021-01-02T11:46:51Z,cs.CL
+1909.06146v1,PubMedQA: A Dataset for Biomedical Research Question Answering,2019-09-13T11:18:20Z,cs.CL
+1703.04009v1,Automated Hate Speech Detection and the Problem of Offensive Language,2017-03-11T18:20:13Z,cs.CL
+2311.07919v2,Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models,2023-11-14T05:34:50Z,eess.AS
+2309.14509v2,DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models,2023-09-25T20:15:57Z,cs.LG
+2310.04378v1,Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference,2023-10-06T17:11:58Z,cs.CV
+2406.19578v1,PathAlign: A vision-language model for whole slide images in histopathology,2024-06-27T23:43:36Z,cs.CV
+2407.17140v1,RT-DETRv2: Improved Baseline with Bag-of-Freebies for Real-Time Detection Transformer,2024-07-24T10:20:19Z,cs.CV
+2408.03326v3,LLaVA-OneVision: Easy Visual Task Transfer,2024-08-06T17:59:44Z,cs.CV
+2504.06225v1,Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation,2025-04-08T17:13:41Z,cs.CL
+2410.00037v2,Moshi: a speech-text foundation model for real-time dialogue,2024-09-17T17:55:39Z,eess.AS
+2408.13106v6,NEST: Self-supervised Fast Conformer as All-purpose Seasoning to Speech Processing Tasks,2024-08-23T14:32:18Z,cs.SD
+2602.06053v1,PersonaPlex: Voice and Role Control for Full Duplex Conversational Speech Models,2026-01-14T07:47:46Z,cs.CL
+2603.18090v2,MOSS-TTS Technical Report,2026-03-18T09:08:06Z,cs.SD
+2506.01844v1,SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics,2025-06-02T16:30:19Z,cs.LG
+2505.23883v2,BioCLIP 2: Emergent Properties from Scaling Hierarchical Contrastive Learning,2025-05-29T17:48:20Z,cs.CV
+2306.15006v2,DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genome,2023-06-26T18:43:46Z,q-bio.GN
+2309.16609v1,Qwen Technical Report,2023-09-28T17:07:49Z,cs.CL
+2403.02151v1,TripoSR: Fast 3D Object Reconstruction from a Single Image,2024-03-04T16:00:56Z,cs.CV
+2205.12644v3,LingMess: Linguistically Informed Multi Expert Scorers for Coreference Resolution,2022-05-25T10:39:46Z,cs.CL
+1911.00536v3,DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation,2019-11-01T18:16:54Z,cs.CL
+2011.06993v2,FLERT: Document-Level Features for Named Entity Recognition,2020-11-13T16:13:59Z,cs.CL
+2012.14740v4,LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding,2020-12-29T13:01:52Z,cs.CL
+2109.04127v1,Word-Level Coreference Resolution,2021-09-09T09:26:02Z,cs.CL
+2105.09680v4,KLUE: Korean Language Understanding Evaluation,2021-05-20T11:40:30Z,cs.CL
+2203.05482v3,Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time,2022-03-10T17:03:49Z,cs.LG
+2203.14371v1,MedMCQA : A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering,2022-03-27T18:59:16Z,cs.CL
+1605.01397v1,"Skin Lesion Analysis toward Melanoma Detection: A Challenge at the International Symposium on Biomedical Imaging (ISBI) 2016, hosted by the International Skin Imaging Collaboration (ISIC)",2016-05-04T19:49:17Z,cs.CV
+2403.07974v2,LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code,2024-03-12T17:58:04Z,cs.SE
+2310.03744v2,Improved Baselines with Visual Instruction Tuning,2023-10-05T17:59:56Z,cs.CV
+2407.10759v1,Qwen2-Audio Technical Report,2024-07-15T14:38:09Z,eess.AS
+2407.20750v1,JaColBERTv2.5: Optimising Multi-Vector Retrievers to Create State-of-the-Art Japanese Retrievers with Constrained Resources,2024-07-30T11:42:19Z,cs.IR
+2603.13032v2,Multimodal OCR: Parse Anything from Documents,2026-03-13T14:42:21Z,cs.CV
+2403.17834v5,Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography,2024-03-26T16:19:56Z,cs.CV
+2604.09791v1,Pioneer Agent: Continual Improvement of Small Language Models in Production,2026-04-10T18:13:09Z,cs.AI
+2512.13961v2,Olmo 3,2025-12-15T23:41:48Z,cs.CL
+2503.04721v3,Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities,2025-03-06T18:59:16Z,cs.CL
+2501.14818v1,Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models,2025-01-20T18:40:47Z,cs.CV
+2507.09226v2,Can We Really Repurpose Multi-Speaker ASR Corpus for Speaker Diarization?,2025-07-12T09:50:30Z,eess.AS
+2507.13347v3,$π^3$: Permutation-Equivariant Visual Geometry Learning,2025-07-17T17:59:53Z,cs.CV
+2602.08794v2,MOVA: Towards Scalable and Synchronized Video-Audio Generation,2026-02-09T15:31:54Z,cs.CV
+2502.20204v1,Granite Embedding Models,2025-02-27T15:45:16Z,cs.IR
+2606.30616v2,"Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",2026-06-29T17:50:54Z,cs.CL
+2606.13392v2,MiniMax Sparse Attention,2026-06-11T14:23:41Z,cs.AI
+2511.03929v2,NVIDIA Nemotron Nano V2 VL,2025-11-06T00:10:19Z,cs.LG
+2501.01028v4,KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model,2025-01-02T03:17:51Z,cs.CL
+2205.06230v2,Simple Open-Vocabulary Object Detection with Vision Transformers,2022-05-12T17:20:36Z,cs.CV
+2604.05081v2,MedGemma 1.5 Technical Report,2026-04-06T18:35:57Z,cs.AI
+2212.09741v3,"One Embedder, Any Task: Instruction-Finetuned Text Embeddings",2022-12-19T18:57:05Z,cs.CL
+2305.01569v2,Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation,2023-05-02T16:18:11Z,cs.CV
+2203.03850v1,UniXcoder: Unified Cross-Modal Pre-training for Code Representation,2022-03-08T04:48:07Z,cs.CL
+2209.04280v4,"F-coref: Fast, Accurate and Easy to Use Coreference Resolution",2022-09-09T12:52:28Z,cs.CL
+2311.04400v2,LRM: Large Reconstruction Model for Single Image to 3D,2023-11-08T00:03:52Z,cs.CV
+2203.07378v4,Dawn of the transformer era in speech emotion recognition: closing the valence gap,2022-03-14T13:21:47Z,eess.AS
+1904.11486v2,Making Convolutional Networks Shift-Invariant Again,2019-04-25T17:56:21Z,cs.CV
+2010.11934v3,mT5: A massively multilingual pre-trained text-to-text transformer,2020-10-22T17:58:14Z,cs.CL
+1608.06993v5,Densely Connected Convolutional Networks,2016-08-25T00:44:55Z,cs.CV
+2405.20204v2,Jina CLIP: Your CLIP Model Is Also Your Text Retriever,2024-05-30T16:07:54Z,cs.CL
+2502.02631v2,ParetoQ: Improving Scaling Laws in Extremely Low-bit LLM Quantization,2025-02-04T18:59:26Z,cs.LG
+2506.18902v3,jina-embeddings-v4: Universal Embeddings for Multimodal Multilingual Retrieval,2025-06-23T17:59:55Z,cs.AI
+2405.09673v2,LoRA Learns Less and Forgets Less,2024-05-15T19:27:45Z,cs.LG
+2606.24597v1,Qwen-AgentWorld: Language World Models for General Agents,2026-06-23T13:53:55Z,cs.CL
+2602.10934v2,MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models,2026-02-11T15:13:27Z,cs.SD
+2605.15442v1,Mind the Gap: Impact of Synthetic Conversational Data on Multi-Talker ASR and Speaker Diarization,2026-05-14T21:53:10Z,eess.AS
+2506.02295v1,QARI-OCR: High-Fidelity Arabic Text Recognition through Multimodal Large Language Model Adaptation,2025-06-02T22:21:06Z,cs.CV
+2605.07182v1,Star Elastic: Many-in-One Reasoning LLMs with Efficient Budget Control,2026-05-08T03:20:36Z,cs.LG
+2303.00716v2,Aligning benchmark datasets for table structure recognition,2023-03-01T18:20:24Z,cs.CV
+2311.07911v1,Instruction-Following Evaluation for Large Language Models,2023-11-14T05:13:55Z,cs.CL
+2208.00385v1,Evaluating Table Structure Recognition: A New Perspective,2022-07-31T07:48:36Z,cs.CV
+2208.06366v2,BEiT v2: Masked Image Modeling with Vector-Quantized Visual Tokenizers,2022-08-12T16:48:10Z,cs.CV
+2007.14062v2,Big Bird: Transformers for Longer Sequences,2020-07-28T08:34:04Z,cs.LG
+2103.06874v4,CANINE: Pre-training an Efficient Tokenization-Free Encoder for Language Representation,2021-03-11T18:57:44Z,cs.CL
+2002.05709v3,A Simple Framework for Contrastive Learning of Visual Representations,2020-02-13T18:50:45Z,cs.LG
+1906.08237v2,XLNet: Generalized Autoregressive Pretraining for Language Understanding,2019-06-19T17:35:48Z,cs.CL
+1812.01187v2,Bag of Tricks for Image Classification with Convolutional Neural Networks,2018-12-04T03:07:35Z,cs.CV
+2406.18009v2,E2 TTS: Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS,2024-06-26T01:38:37Z,eess.AS
+2401.03955v8,Tiny Time Mixers (TTMs): Fast Pre-trained Models for Enhanced Zero/Few-Shot Forecasting of Multivariate Time Series,2024-01-08T15:21:21Z,cs.LG
+2311.13668v3,MAIRA-1: A specialised large multimodal model for radiology report generation,2023-11-22T19:45:40Z,cs.CL
+2503.07598v2,VACE: All-in-One Video Creation and Editing,2025-03-10T17:57:04Z,cs.CV
+2406.18495v3,"WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs",2024-06-26T16:58:20Z,cs.CL
+2501.06230v2,BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation,2025-01-08T01:30:11Z,cs.CV
+2509.12508v4,Fun-ASR Technical Report,2025-09-15T23:19:36Z,cs.CL
+2512.13655v2,Comparative Analysis of LLM Abliteration Methods: A Cross-Architecture Evaluation,2025-12-15T18:48:42Z,cs.CL
+2502.17237v3,MegaLoc: One Retrieval to Place Them All,2025-02-24T15:14:55Z,cs.CV
+2607.22083v2,Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Model,2026-07-24T08:33:26Z,cs.AI
+2610.02188v2,DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation,2026-10-01T17:59:01Z,cs.CV
+2405.04434v5,"DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",2024-05-07T15:56:43Z,cs.CL
+1912.13318v5,LayoutLM: Pre-training of Text and Layout for Document Image Understanding,2019-12-31T14:31:29Z,cs.CL
+2003.00744v3,PhoBERT: Pre-trained language models for Vietnamese,2020-03-02T10:21:17Z,cs.CL
+2103.06678v2,"The Interplay of Variant, Size, and Task Type in Arabic Pre-trained Language Models",2021-03-11T14:11:43Z,cs.CL
+2110.08193v2,BBQ: A Hand-Built Bias Benchmark for Question Answering,2021-10-15T16:43:46Z,cs.CL
+2211.11187v2,L3Cube-MahaSBERT and HindSBERT: Sentence BERT Models and Benchmarking BERT Sentence Representations for Hindi and Marathi,2022-11-21T05:15:48Z,cs.CL
+2402.01912v1,Natural language guidance of high-fidelity text-to-speech with synthetic annotations,2024-02-02T21:29:34Z,cs.SD
+2305.14314v1,QLoRA: Efficient Finetuning of Quantized LLMs,2023-05-23T17:50:33Z,cs.LG
+2403.12392v1,AraPoemBERT: A Pretrained Language Model for Arabic Poetry Analysis,2024-03-19T02:59:58Z,cs.CL
+2310.04928v2,Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU,2023-10-07T21:49:38Z,cs.CL
+2406.04334v1,DeepStack: Deeply Stacking Visual Tokens is Surprisingly Simple and Effective for LMMs,2024-06-06T17:59:34Z,cs.CV
+2501.12326v1,UI-TARS: Pioneering Automated GUI Interaction with Native Agents,2025-01-21T17:48:10Z,cs.AI
+2309.06085v2,BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation Suite for Large Language Models,2023-09-12T09:31:25Z,cs.CL
+2502.03382v2,High-Fidelity Simultaneous Speech-To-Speech Translation,2025-02-05T17:18:55Z,cs.CL
+2405.14573v5,AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents,2024-05-23T13:48:54Z,cs.AI
+2507.13264v1,Voxtral,2025-07-17T16:17:37Z,cs.SD
+2503.11576v1,SmolDocling: An ultra-compact vision-language model for end-to-end multi-modal document conversion,2025-03-14T16:44:14Z,cs.CV
+2510.26777v1,Pre-trained Forecasting Models: Strong Zero-Shot Feature Extractors for Time Series Classification,2025-10-30T17:55:23Z,cs.LG
+2511.20478v1,NVIDIA Nemotron Parse 1.1,2025-11-25T16:41:25Z,cs.LG
+2109.07958v2,TruthfulQA: Measuring How Models Mimic Human Falsehoods,2021-09-08T17:15:27Z,cs.CL
+2501.00656v3,2 OLMo 2 Furious,2024-12-31T21:55:10Z,cs.CL
+2601.01554v7,MOSS Transcribe Diarize Technical Report,2026-01-04T15:01:10Z,cs.SD
+2005.08100v1,Conformer: Convolution-augmented Transformer for Speech Recognition,2020-05-16T20:56:25Z,eess.AS
+1811.00937v2,CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge,2018-11-02T15:34:29Z,cs.CL
+2110.07205v3,SpeechT5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing,2021-10-14T07:59:27Z,eess.AS
+2101.09635v2,WangchanBERTa: Pretraining transformer-based Thai Language Models,2021-01-24T03:06:34Z,cs.CL
+2108.08877v3,Sentence-T5: Scalable Sentence Encoders from Pre-trained Text-to-Text Models,2021-08-19T18:58:02Z,cs.CL
+2203.09509v4,ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection,2022-03-17T17:57:56Z,cs.CL
+1409.1556v6,Very Deep Convolutional Networks for Large-Scale Image Recognition,2014-09-04T19:48:04Z,cs.CV
+2401.06066v1,DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models,2024-01-11T17:31:42Z,cs.CL
+1801.04381v4,MobileNetV2: Inverted Residuals and Linear Bottlenecks,2018-01-13T04:46:26Z,cs.CV
+2409.08264v2,Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale,2024-09-12T17:56:43Z,cs.AI
+2409.12122v1,Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement,2024-09-18T16:45:37Z,cs.CL
+2412.10302v1,DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding,2024-12-13T17:37:48Z,cs.CV
+1804.09301v1,Gender Bias in Coreference Resolution,2018-04-25T00:46:14Z,cs.CL
+1801.06146v5,Universal Language Model Fine-tuning for Text Classification,2018-01-18T17:54:52Z,cs.CL
+2505.23719v2,TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning,2025-05-29T17:52:10Z,cs.LG
+2008.03415v1,Assessing Demographic Bias in Named Entity Recognition,2020-08-08T02:01:25Z,cs.CL
+2502.04507v3,Fast Video Generation with Sliding Tile Attention,2025-02-06T21:17:09Z,cs.CV
+2601.18415v1,Pisets: A Robust Speech Recognition System for Lectures and Interviews,2026-01-26T12:14:51Z,cs.CL
+2605.13521v2,Granite Embedding Multilingual R2 Models,2026-05-13T13:37:45Z,cs.IR
+2312.06109v1,Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models,2023-12-11T04:26:17Z,cs.CV
+2404.07972v2,OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments,2024-04-11T17:56:05Z,cs.AI
+2310.01889v4,Ring Attention with Blockwise Transformers for Near-Infinite Context,2023-10-03T08:44:50Z,cs.CL
+2311.05556v1,LCM-LoRA: A Universal Stable-Diffusion Acceleration Module,2023-11-09T18:04:15Z,cs.CV
+2304.11434v1,L3Cube-IndicSBERT: A simple approach for learning cross-lingual sentence representations using multilingual BERT,2023-04-22T15:45:40Z,cs.CL
+1809.02789v1,Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering,2018-09-08T11:47:16Z,cs.CL
+1808.06226v1,SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing,2018-08-19T16:49:06Z,cs.CL
+2501.19399v1,Scalable-Softmax Is Superior for Attention,2025-01-31T18:55:35Z,cs.CL
+2403.13793v2,Evaluating Frontier Models for Dangerous Capabilities,2024-03-20T17:54:26Z,cs.LG
+1804.06876v1,Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods,2018-04-18T18:51:00Z,cs.CL
+2306.01116v1,"The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only",2023-06-01T20:03:56Z,cs.CL
+2504.01382v4,An Illusion of Progress? Assessing the Current State of Web Agents,2025-04-02T05:51:29Z,cs.AI
+2602.06909v1,Revisiting the Generic Transformer: Deconstructing a Strong Baseline for Time Series Foundation Models,2026-02-06T18:01:44Z,cs.LG
+2508.02879v3,CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data,2025-08-04T20:18:31Z,cs.LG
+2603.27064v2,"ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding",2026-03-28T00:45:05Z,cs.CV
+2502.09927v1,"Granite Vision: a lightweight, open-source multimodal model for enterprise Intelligence",2025-02-14T05:36:32Z,cs.CV
+2603.28714v3,VAANI: Capturing the language landscape for an inclusive digital India,2026-03-30T17:30:53Z,eess.AS
+2305.03393v1,Optimized Table Tokenization for Table Structure Recognition,2023-05-05T09:38:47Z,cs.CV
+2305.18283v1,CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice,2023-05-29T17:53:35Z,cs.CL
+2205.14135v2,FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,2022-05-27T17:53:09Z,cs.LG
+2402.16829v1,GISTEmbed: Guided In-sample Selection of Training Negatives for Text Embedding Fine-tuning,2024-02-26T18:55:15Z,cs.LG
+2312.17543v2,Building Efficient Universal Classifiers with Natural Language Inference,2023-12-29T10:18:36Z,cs.CL
+2101.11718v1,BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation,2021-01-27T22:07:03Z,cs.CL
+1906.08101v3,Pre-Training with Whole Word Masking for Chinese BERT,2019-06-19T13:54:25Z,cs.CL
+2010.05171v2,fairseq S2T: Fast Speech-to-Text Modeling with fairseq,2020-10-11T05:36:54Z,cs.CL
+2409.01704v1,General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model,2024-09-03T08:41:31Z,cs.CV
+2402.14776v3,2D Matryoshka Sentence Embeddings,2024-02-22T18:35:05Z,cs.CL
+2009.11462v2,RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models,2020-09-24T03:17:19Z,cs.CL
+2412.13702v2,Typhoon 2: A Family of Open Text and Multimodal Thai Large Language Models,2024-12-18T10:45:24Z,cs.CL
+2505.13389v5,VSA: Faster Video Diffusion with Trainable Sparse Attention,2025-05-19T17:30:13Z,cs.CV
+2509.08753v2,Streaming Sequence-to-Sequence Learning with Delayed Streams Modeling,2025-09-10T16:43:01Z,cs.CL
+2501.17887v1,Docling: An Efficient Open-Source Toolkit for AI-driven Document Conversion,2025-01-27T19:40:00Z,cs.CL
+2410.23218v1,OS-ATLAS: A Foundation Action Model for Generalist GUI Agents,2024-10-30T17:10:19Z,cs.CL
+2204.09817v4,Making the Most of Text Semantics to Improve Biomedical Vision--Language Processing,2022-04-21T00:04:35Z,cs.CV
+2405.14295v1,Focus Anywhere for Fine-grained Multi-page Document Understanding,2024-05-23T08:15:49Z,cs.CV
+2401.13919v4,WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models,2024-01-25T03:33:18Z,cs.CL
+2406.11717v3,Refusal in Language Models Is Mediated by a Single Direction,2024-06-17T16:36:12Z,cs.LG
+2211.14730v2,A Time Series is Worth 64 Words: Long-term Forecasting with Transformers,2022-11-27T05:15:42Z,cs.LG
+2604.24954v2,Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence,2026-04-27T19:49:21Z,cs.LG
+2303.14189v2,FastViT: A Fast Hybrid Vision Transformer using Structural Reparameterization,2023-03-24T17:58:32Z,cs.CV
+2303.15389v1,EVA-CLIP: Improved Training Techniques for CLIP at Scale,2023-03-27T17:02:21Z,cs.CV
+2106.13008v5,Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting,2021-06-24T13:43:43Z,cs.LG
+2407.12632v2,CerberusDet: Unified Multi-Dataset Object Detection,2024-07-17T15:00:35Z,cs.CV
+2402.15506v4,AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning,2024-02-23T18:56:26Z,cs.AI
+2411.04368v1,Measuring short-form factuality in large language models,2024-11-07T01:58:42Z,cs.CL
+2401.00396v2,RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models,2023-12-31T04:43:45Z,cs.CL
+2509.13160v1,"FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning",2025-09-16T15:13:13Z,cs.LG
+2509.06501v3,WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents,2025-09-08T10:07:03Z,cs.CL
+2511.16397v2,"AICC: Parse HTML Finer, Make Models Better -- A 7.3T AI-Ready Corpus Built by a Model-Based HTML Parser",2025-11-20T14:15:23Z,cs.CL
+2603.23654v1,Ethio-ASR: Joint Multilingual Speech Recognition and Language Identification for Ethiopian Languages,2026-03-24T18:55:45Z,cs.CL
+2405.08748v1,Hunyuan-DiT: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding,2024-05-14T16:33:25Z,cs.CV
+2501.13925v1,GeoPixel: Pixel Grounding Large Multimodal Model in Remote Sensing,2025-01-23T18:59:30Z,cs.CV
+2407.21783v3,The Llama 3 Herd of Models,2024-07-31T17:54:27Z,cs.AI
+2008.00401v1,Multilingual Translation with Extensible Multilingual Pretraining and Finetuning,2020-08-02T05:36:55Z,cs.CL
+2002.05202v1,GLU Variants Improve Transformer,2020-02-12T19:57:13Z,cs.LG
+2012.15761v2,Learning from the Worst: Dynamically Generated Datasets to Improve Online Hate Detection,2020-12-31T17:36:48Z,cs.CL
+2105.00572v1,Larger-Scale Transformers for Multilingual Masked Language Modeling,2021-05-02T23:15:02Z,cs.CL
+2401.07519v2,InstantID: Zero-shot Identity-Preserving Generation in Seconds,2024-01-15T07:50:18Z,cs.CV
+2401.02415v2,LLaMA Pro: Progressive LLaMA with Block Expansion,2024-01-04T18:59:12Z,cs.CL
+2402.00769v3,AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data,2024-02-01T16:58:11Z,cs.CV
+2412.08376v2,"Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization",2024-12-11T13:36:18Z,cs.CV
+2504.07164v1,R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents,2025-04-09T17:55:19Z,cs.SE
+2602.00744v3,ACE-Step 1.5: Pushing the Boundaries of Open-Source Music Generation,2026-01-31T14:18:34Z,cs.SD
+2303.08774v6,GPT-4 Technical Report,2023-03-15T17:15:04Z,cs.CL
+2602.15547v2,jina-embeddings-v5-text: Task-Targeted Embedding Distillation,2026-02-17T12:50:50Z,cs.CL
+1602.07261v2,"Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",2016-02-23T18:44:39Z,cs.CV
+2507.08128v2,Audio Flamingo 3: Advancing Audio Intelligence with Fully Open Large Audio Language Models,2025-07-10T19:40:21Z,cs.SD
+2510.21585v1,"REVE: A Foundation Model for EEG -- Adapting to Any Setup with Large-Scale Pretraining on 25,000 Subjects",2025-10-24T15:52:46Z,cs.LG
+2506.15442v1,Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material,2025-06-18T13:14:46Z,cs.CV
+2605.17991v1,Stable Audio 3,2026-05-18T07:47:03Z,cs.SD
+2511.10289v1,Music Flamingo: Scaling Music Understanding in Audio Language Models,2025-11-13T13:21:09Z,eess.AS
+2509.09467v1,"Inteligencia Artificial jurídica y el desafío de la veracidad: análisis de alucinaciones, optimización de RAG y principios para una integración responsable",2025-09-11T13:50:23Z,cs.AI
+2608.25774v1,EXAONE Tabular 1.0 : Technical Report,2026-08-26T13:17:20Z,cs.LG
+2610.36729v1,Hy-Nomas: Towards Free-form Interactive World Generation,2026-10-27T06:48:59Z,cs.CV
+1905.07213v1,Adaptation of Deep Bidirectional Multilingual Transformers for Russian Language,2019-05-17T11:39:21Z,cs.CL
+2007.07834v2,InfoXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre-Training,2020-07-15T16:58:01Z,cs.CL
+2203.06482v2,FiNER: Financial Numeric Entity Recognition for XBRL Tagging,2022-03-12T16:43:57Z,cs.CL
+2212.10496v1,Precise Zero-Shot Dense Retrieval without Relevance Labels,2022-12-20T18:09:52Z,cs.IR
+2302.05527v2,CodeBERTScore: Evaluating Code Generation with Pretrained Models of Code,2023-02-10T22:12:05Z,cs.SE
+2310.02255v3,MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts,2023-10-03T17:57:24Z,cs.CV
+2210.15497v1,LSG Attention: Extrapolation of pretrained Transformers to long sequences,2022-10-13T13:10:41Z,cs.CL
+2409.03215v1,xLAM: A Family of Large Action Models to Empower AI Agent Systems,2024-09-05T03:22:22Z,cs.CL
+2404.13686v3,Hyper-SD: Trajectory Segmented Consistency Model for Efficient Image Synthesis,2024-04-21T15:16:05Z,cs.CV
+2606.03264v1,PaddleOCR-VL-1.6: Expanding the Frontier of Document Parsing with Under-Optimized Region Refinement and Progressive Post-Training,2026-06-02T07:27:03Z,cs.CV
+2505.13032v1,"MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix",2025-05-19T12:18:42Z,cs.SD
+2411.05007v4,SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models,2024-11-07T18:59:58Z,cs.CV
+2512.19687v1,Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning,2025-12-22T18:59:07Z,cs.SD
+2503.22673v3,ActionStudio: A Lightweight Framework for Data and Training of Large Action Models,2025-03-28T17:58:33Z,cs.AI
+2009.11616v4,N-LTP: An Open-source Neural Language Technology Platform for Chinese,2020-09-24T11:45:39Z,cs.CL
+2607.13639v1,OvisOCR2 Technical Report,2026-07-15T09:32:33Z,cs.CV
+2610.23374v1,MOSS-Image Technical Report,2026-10-16T12:27:37Z,cs.CV
+2610.26825v2,MemT-1.0: Towards Memory-Native Evolution,2026-10-19T17:54:35Z,cs.CL
+2305.09781v4,SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification,2023-05-16T20:12:59Z,cs.CL
+2303.15621v2,ChatGPT as a Factual Inconsistency Evaluator for Text Summarization,2023-03-27T22:30:39Z,cs.CL
+2004.08955v2,ResNeSt: Split-Attention Networks,2020-04-19T20:40:31Z,cs.CV
+2103.05345v1,Detecting Inappropriate Messages on Sensitive Topics that Could Harm a Company's Reputation,2021-03-09T10:50:30Z,cs.CL
+1709.01507v4,Squeeze-and-Excitation Networks,2017-09-05T17:42:13Z,cs.CV
+2306.00107v5,MERT: Acoustic Music Understanding Model with Large-Scale Self-supervised Training,2023-05-31T18:27:43Z,cs.SD
+2405.04520v1,NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and Natural User Prompts,2024-05-07T17:52:51Z,cs.CL
+2310.12371v1,Property-Aware Multi-Speaker Data Simulation: A Probabilistic Modelling Technique for Synthetic Data Generation,2023-10-18T22:46:20Z,eess.AS
+2403.11703v1,LLaVA-UHD: an LMM Perceiving Any Aspect Ratio and High-Resolution Images,2024-03-18T12:04:11Z,cs.CV
+2509.04292v1,Inverse IFEval: Can LLMs Unlearn Stubborn Training Conventions to Follow Real Instructions?,2025-09-04T15:03:02Z,cs.CL
+2501.13420v3,LVFace: Progressive Cluster Optimization for Large Vision Models in Face Recognition,2025-01-23T06:48:48Z,cs.CV
+2506.10707v4,ConTextTab: A Semantics-Aware Tabular In-Context Learner,2025-06-12T13:57:29Z,cs.LG
+2509.12541v1,zELO: ELO-inspired Training Method for Rerankers and Embedding Models,2025-09-16T00:44:08Z,cs.AI
+2604.04771v2,MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale,2026-04-06T15:44:18Z,cs.CV
+2607.21075v2,VibeVoice-ASR-BitNet Technical Report,2026-07-23T09:08:04Z,cs.SD
+2511.23119v3,Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM,2025-11-28T12:04:46Z,cs.CL
+2503.05731v2,AILuminate: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons,2025-02-19T05:58:52Z,cs.CY
+2309.11235v2,OpenChat: Advancing Open-source Language Models with Mixed-Quality Data,2023-09-20T11:54:40Z,cs.CL
+2305.03111v3,Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs,2023-05-04T19:02:29Z,cs.CL
+2205.12854v2,"Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors",2022-05-25T15:26:48Z,cs.CL
+2403.06789v1,SPLADE-v3: New baselines for SPLADE,2024-03-11T15:04:55Z,cs.IR
+2006.13979v2,Unsupervised Cross-lingual Representation Learning for Speech Recognition,2020-06-24T18:25:05Z,cs.CL
+2012.12877v2,Training data-efficient image transformers & distillation through attention,2020-12-23T18:42:10Z,cs.CV
+1611.05431v2,Aggregated Residual Transformations for Deep Neural Networks,2016-11-16T20:34:42Z,cs.CV
+2504.03601v4,APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay,2025-04-04T17:13:57Z,cs.CL
+2511.10647v1,Depth Anything 3: Recovering the Visual Space from Any Views,2025-11-13T18:59:53Z,cs.CV
+2512.15603v1,Qwen-Image-Layered: Towards Inherent Editability via Layer Decomposition,2025-12-17T17:12:42Z,cs.CV
+2405.14867v2,Improved Distribution Matching Distillation for Fast Image Synthesis,2024-05-23T17:59:49Z,cs.CV
+2212.07143v2,Reproducible scaling laws for contrastive language-image learning,2022-12-14T10:24:50Z,cs.LG
+2405.13929v8,Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian,2024-05-22T18:58:58Z,cs.CL
+2004.09813v2,Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation,2020-04-21T08:20:25Z,cs.CL

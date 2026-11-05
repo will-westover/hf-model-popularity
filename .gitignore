@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.quarto/
+.ipynb_checkpoints/
+eda_files/
+**/*.quarto_ipynb
+.DS_Store
+_PLAN.md
